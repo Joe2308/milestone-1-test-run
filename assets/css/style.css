@@ -10,7 +10,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 600px;
-    width: 100%;
     margin-top: 100px;
 }
 
@@ -34,7 +33,7 @@
 }
 
 /* Intro paragraph background */
-.hello{
+.hello { 
     background: #f4f5f9;;
 }
 
@@ -49,4 +48,5 @@
     color: grey;
     margin-left: 20px;
     margin-right: 20px;
+    max-width: 100%;
 }
