@@ -1,11 +1,3 @@
-/* font import */
-
-
-.navbar {
-    background-color: black;
-    min-height: 55px;
-}
-
 /* Logo with link to home */
 .smaller-image {
     width: 120px; 
@@ -17,7 +9,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 650px;
+    min-height: 600px;
+    width: 100%;
+    margin-top: 100px;
 }
 
 /* Home page hero image title */
@@ -27,4 +21,32 @@
     padding-top: 250px;
     color: white;
     font-size: 50px;
+    font-weight: bold;
+}
+
+/* Intro Paragraph heading */
+.intro {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-top: 55px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Intro paragraph background */
+.hello{
+    background: #f4f5f9;;
+}
+
+/* Intro paragraph text */
+
+.hello p {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 55px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    margin-left: 20px;
+    margin-right: 20px;
 }
