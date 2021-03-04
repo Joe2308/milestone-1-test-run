@@ -1,22 +1,30 @@
 /* font import */
 
-.smaller-image {
-    width: 200px; 
+
+.navbar {
+    background-color: black;
+    min-height: 55px;
 }
 
+/* Logo with link to home */
+.smaller-image {
+    width: 120px; 
+}
 
+/* Home page hero image */
 .hero {
     background: url(../images/home-hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 500px;
+    min-height: 650px;
 }
 
+/* Home page hero image title */
 .hero-title {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Playfair Display', serif;
     padding-top: 250px;
     color: white;
-    font-size: 45px;
+    font-size: 50px;
 }
