@@ -1,6 +1,15 @@
+body {
+    letter-spacing: 1px;
+}
+
+/* Navbar */
+.menav {
+   max-width: 100%;
+}
+
 /* Logo with link to home */
 .smaller-image {
-    width: 120px; 
+    width: 90px; 
 }
 
 /* Home page hero image */
@@ -10,7 +19,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 600px;
-    margin-top: 100px;
+    margin-top: 55px;
 }
 
 /* Home page hero image title */
@@ -23,6 +32,23 @@
     font-weight: bold;
 }
 
+/* Hero image cta buttons */
+.btn-outline-light {
+    color: #fff;
+    border: 2px solid white;
+    background-color: #a9a9a9;
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-top: 55px;
+    border-radius: 8px;
+}
+
+.hero-cta {
+    text-align: center;
+}
+
+
+
 /* Intro Paragraph heading */
 .intro {
     font-family: 'Playfair Display', serif;
@@ -34,19 +60,18 @@
 
 /* Intro paragraph background */
 .hello { 
-    background: #f4f5f9;;
+    background: #f4f5f9;
 }
 
 /* Intro paragraph text */
 
-.hello p {
-    font-size: 25px;
+p {
+    font-size: 18px;
     text-align: center;
     margin-top: 55px;
     font-weight: 600;
-    font-family: 'Roboto', sans-serif;
-    color: grey;
+    font-family: 'Mulish', sans-serif;
+    color: #0e1111;
     margin-left: 20px;
     margin-right: 20px;
-    max-width: 100%;
 }
