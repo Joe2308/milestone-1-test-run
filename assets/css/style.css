@@ -1,11 +1,10 @@
 body {
     letter-spacing: 1px;
+     background: #f4f5f9;
 }
 
 /* Navbar */
-.menav {
-   max-width: 100%;
-}
+
 
 /* Logo with link to home */
 .smaller-image {
@@ -51,7 +50,7 @@ body {
 
 
 /* Intro Paragraph heading */
-.intro {
+h2 {
     font-family: 'Playfair Display', serif;
     text-align: center;
     margin-top: 55px;
@@ -59,10 +58,10 @@ body {
     font-weight: bold;
 }
 
-/* Intro paragraph background */
+/* Intro paragraph background 
 .hello { 
     background: #f4f5f9;
-}
+} */
 
 /* Intro paragraph text */
 
@@ -75,4 +74,14 @@ p {
     color: #0e1111;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+/* Video */
+.video-title {
+    margin-bottom: 55px;
+}
+
+.video {
+    text-align: center;
+    margin-top: 55px;
 }
