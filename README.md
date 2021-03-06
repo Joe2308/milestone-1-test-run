@@ -43,3 +43,9 @@ We have relied on exciting images of live music and red theme for our call to ac
 We have used fixed scrolling navigation menu to minimize user scrolling
 
 The following link show our mockups designed using balsamiq. [wireframes](./assets/wireframes/mockups.pdf)
+
+## Credits
+
+## [How to resize iframes using bootstrap](https://blog.theodo.com/2018/01/responsive-iframes-css-trick/)
+
+## [How to center an iframe](https://www.panayiotisgeorgiou.net/how-to-center-a-youtube-iframe-on-a-page/)
