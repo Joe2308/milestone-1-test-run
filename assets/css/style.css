@@ -116,3 +116,94 @@ p {
     box-shadow: 10px 5px 5px #a9a9a9;
 }
 
+/* Meet the band profiles section */
+
+.band-profiles {
+    background: #f8f8ff;
+    margin-top: 55px;
+}
+/* Title */
+.meet {
+    margin-bottom: 55px;
+}
+
+.mic {
+    font-size: 30px;
+}
+
+/* Profile border box */
+.band {
+    border: 1px solid black;
+    margin: 20px;
+    background: #f4f5f9;
+}
+
+/* profile image */
+.profile-1 {
+    background: url(../images/james.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    box-shadow: 10px 5px 5px #a9a9a9;
+}
+
+.profile-2 {
+    background: url(../images/conan.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    box-shadow: 10px 5px 5px #a9a9a9;
+}
+
+.profile-3 {
+    background: url(../images/2j.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    box-shadow: 10px 5px 5px #a9a9a9;
+}
+
+.profile-4 {
+    background: url(../images/derek.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    box-shadow: 10px 5px 5px #a9a9a9;
+}
+
+.profile-5 {
+    background: url(../images/johnny.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    box-shadow: 10px 5px 5px #a9a9a9;
+}
+
+/* profile text */
+.jim {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    margin: 20px;;
+}
+
