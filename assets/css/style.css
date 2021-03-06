@@ -87,12 +87,16 @@ p {
 }
 
 /* Video section */
+.watch-now {
+    background: #f8f8ff;
+}
+
 .video-title {
     margin-bottom: 55px;
 }
 
 .live-vid {
-    max-width: 80%;
+    max-width: 90%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -106,13 +110,11 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 600px;
+    min-height: 650px;
     margin-top: 100px;
-    max-width: 90%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 12px;
     box-shadow: 10px 5px 5px #a9a9a9;
 }
 
@@ -138,65 +140,64 @@ p {
     background: #f4f5f9;
 }
 
+.band h2 {
+    margin-top: 0;
+}
+
 /* profile image */
 .profile-1 {
     background: url(../images/james.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 12px;
-    box-shadow: 10px 5px 5px #a9a9a9;
 }
 
 .profile-2 {
     background: url(../images/conan.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 12px;
-    box-shadow: 10px 5px 5px #a9a9a9;
 }
 
 .profile-3 {
     background: url(../images/2j.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 12px;
-    box-shadow: 10px 5px 5px #a9a9a9;
 }
 
 .profile-4 {
     background: url(../images/derek.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 12px;
-    box-shadow: 10px 5px 5px #a9a9a9;
 }
 
 .profile-5 {
     background: url(../images/johnny.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 12px;
-    box-shadow: 10px 5px 5px #a9a9a9;
 }
 
 /* profile text */
