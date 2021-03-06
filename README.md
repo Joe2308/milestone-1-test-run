@@ -49,3 +49,5 @@ The following link show our mockups designed using balsamiq. [wireframes](./asse
 ## [How to resize iframes using bootstrap](https://blog.theodo.com/2018/01/responsive-iframes-css-trick/)
 
 ## [How to center an iframe](https://www.panayiotisgeorgiou.net/how-to-center-a-youtube-iframe-on-a-page/)
+
+## [Fixed nav/ responsive nav/ image carousel](https://youtu.be/9cKsq14Kfsw)
