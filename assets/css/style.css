@@ -1,6 +1,16 @@
 body {
     letter-spacing: 1px;
-     background: #f4f5f9;
+    background: #f4f5f9;
+}
+
+/* hr dividers */
+hr {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 5px solid rgba(0,0,0,.1);
+    width: 50%;
+    border-radius: 50%;
 }
 
 /* Navbar */
@@ -8,14 +18,13 @@ body {
     overflow: hidden;
 }
 
-
-/* Logo with link to home */
+/* Navbar logo with link to home */
 .smaller-image {
     width: 90px; 
 }
 
 /* Home page hero image */
-.hero {
+.hero-home {
     background: url(../images/home-hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -24,8 +33,7 @@ body {
     margin-top: 55px;
 }
 
-
-/* Home page hero image title */
+/* Hero image titles */
 .hero-title {
     text-align: center;
     font-family: 'Playfair Display', serif;
@@ -33,6 +41,7 @@ body {
     color: white;
     font-size: 50px;
     font-weight: bold;
+    text-transform: capitalize;
 }
 
 /* Hero image cta buttons */
@@ -50,8 +59,6 @@ body {
     text-align: center;
 }
 
-
-
 /* Intro Paragraph heading */
 h2 {
     font-family: 'Playfair Display', serif;
@@ -59,6 +66,7 @@ h2 {
     margin-top: 55px;
     font-size: 40px;
     font-weight: bold;
+    text-transform: capitalize;
 }
 
 /* Intro paragraph background 
@@ -66,8 +74,7 @@ h2 {
     background: #f4f5f9;
 } */
 
-/* Intro paragraph text */
-
+/* Paragraph text */
 p {
     font-size: 18px;
     text-align: center;
@@ -79,7 +86,7 @@ p {
     margin-right: 20px;
 }
 
-/* Video */
+/* Video section */
 .video-title {
     margin-bottom: 55px;
 }
@@ -89,5 +96,23 @@ p {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 12px;
+    box-shadow: 10px 5px 5px #a9a9a9;
+}
+
+/* About us hero image */
+.hero-about {
+    background: url(../images/about-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    margin-top: 100px;
+    max-width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    box-shadow: 10px 5px 5px #a9a9a9;
 }
 
