@@ -5,7 +5,7 @@ body {
 
 /* hr dividers */
 hr {
-    margin-top: 2rem;
+    margin-top: 4rem;
     margin-bottom: 1rem;
     border: 0;
     border-top: 5px solid rgba(0,0,0,.1);
@@ -104,6 +104,7 @@ p {
     box-shadow: 10px 5px 5px #a9a9a9;
 }
 
+/* About us section */
 /* About us hero image */
 .hero-about {
     background: url(../images/about-hero.jpg);
@@ -115,7 +116,6 @@ p {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 10px 5px 5px #a9a9a9;
 }
 
 /* Meet the band profiles section */
@@ -124,6 +124,7 @@ p {
     background: #f8f8ff;
     margin-top: 55px;
 }
+
 /* Title */
 .meet {
     margin-bottom: 55px;
@@ -144,7 +145,7 @@ p {
     margin-top: 0;
 }
 
-/* profile image */
+/* profile images */
 .profile-1 {
     background: url(../images/james.jpg);
     background-position: center;
@@ -208,3 +209,13 @@ p {
     margin: 20px;;
 }
 
+
+/* Contact us section */
+ .hero-contact {
+    background: url(../images/couple-beach.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    margin-top: 55px;
+}
