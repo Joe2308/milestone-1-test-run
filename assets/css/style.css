@@ -67,6 +67,8 @@ h2 {
     font-size: 40px;
     font-weight: bold;
     text-transform: capitalize;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 /* Intro paragraph background 
@@ -130,19 +132,24 @@ p {
     margin-bottom: 55px;
 }
 
-.mic {
+.profile-icon {
     font-size: 30px;
 }
 
 /* Profile border box */
 .band {
     border: 1px solid black;
-    margin: 20px;
+    margin: 20px 20px 55px 20px;
     background: #f4f5f9;
 }
 
 .band h2 {
     margin-top: 0;
+}
+
+.band p {
+    margin-left: 1px;
+    margin-right: 1px;
 }
 
 /* profile images */
@@ -218,4 +225,52 @@ p {
     background-size: cover;
     min-height: 600px;
     margin-top: 55px;
+}
+
+h3, h5 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 10px;
+}
+
+.bg-color-contact {
+    background: url(../images/spotlight.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    margin: 20px;
+}
+
+
+.center-form {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.jumbotron {
+    border-radius: 12px;
+    box-shadow: 10px 5px 5px #a9a9a9;
+}
+
+.btn-secondary {
+    margin: 25px;
+    color: #fff;
+    border: 2px solid #212529;
+    background-color: #a9a9a9;
+    border-radius: 8px;
+}
+
+@media(min-width:992px) {
+.center-form {
+    max-width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
 }
