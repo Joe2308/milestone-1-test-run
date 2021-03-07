@@ -243,6 +243,7 @@ h3, h5 {
     background-size: cover;
     min-height: 600px;
     margin: 20px;
+    box-shadow: 10px 5px 5px #a9a9a9;
 }
 
 
@@ -253,7 +254,7 @@ h3, h5 {
     margin-top: 80px;
 }
 
-.jumbotron {
+jumbotron {
     border-radius: 12px;
     box-shadow: 10px 5px 5px #a9a9a9;
 }
@@ -273,4 +274,18 @@ h3, h5 {
     margin-right: auto;
     margin-top: 80px;
 }
+}
+
+/* Why us */
+.why-us { 
+background: #f8f8ff;
+}
+
+h4 {
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 55px;
 }
