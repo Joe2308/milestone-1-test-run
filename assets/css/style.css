@@ -33,6 +33,24 @@ hr {
     margin-top: 55px;
 }
 
+.hero-2 {
+    background: url(../images/recoil-hero-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    margin-top: 55px;
+}
+
+.hero-3 {
+    background: url(../images/recoil-hero-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    margin-top: 55px;
+}
+
 /* Hero image titles */
 .hero-title {
     text-align: center;
