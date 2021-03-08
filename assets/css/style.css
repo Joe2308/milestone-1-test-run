@@ -155,58 +155,59 @@ p {
 
 /* profile images */
 .profile-1 {
-    background: url(../images/james.jpg);
+    background: url(../images/chris2.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 12px;
+    box-shadow: 10px 5px 5px #a9a9a9;
+
 }
 
 .profile-2 {
-    background: url(../images/conan.jpg);
+    background: url(../images/conan2.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 12px;
+    box-shadow: 10px 5px 5px #a9a9a9;
 }
 
 .profile-3 {
-    background: url(../images/2j.jpg);
+    background: url(../images/joe.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 12px;
+    box-shadow: 10px 5px 5px #a9a9a9;
 }
 
 .profile-4 {
-    background: url(../images/derek.jpg);
+    background: url(../images/nathan.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 12px;
+    box-shadow: 10px 5px 5px #a9a9a9;
 }
 
 .profile-5 {
-    background: url(../images/johnny.jpg);
+    background: url(../images/johnny2.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 12px;
+    box-shadow: 10px 5px 5px #a9a9a9;
 }
 
 /* profile text */
@@ -220,11 +221,11 @@ p {
 
 /* Contact us section */
  .hero-contact {
-    background: url(../images/couple-beach.jpg);
+    background: url(../images/recoil-couple.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 600px;
+    min-height: 750px;
     margin-top: 55px;
 }
 
