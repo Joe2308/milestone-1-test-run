@@ -48,11 +48,16 @@ hr {
 .btn-outline-light {
     color: #fff;
     border: 2px solid white;
-    background-color: #a9a9a9;
+    background-color: #FF0000;
     margin-left: 0px;
     margin-right: 5px;
     margin-top: 55px;
-    border-radius: 8px;
+    border-radius: 25px;
+}
+
+.btn-outline-light:hover {
+    background-color: #DC143C;
+    border-color: #414a4c;
 }
 
 .hero-cta {
@@ -264,9 +269,15 @@ jumbotron {
 .btn-secondary {
     margin: 25px;
     color: #fff;
-    border: 2px solid #212529;
-    background-color: #a9a9a9;
-    border-radius: 8px;
+    border: 2px solid white;
+    background-color: #FF0000;
+    border-radius: 25px;
+}
+
+.btn-secondary:hover {
+    background-color: #DC143C;
+    border-color: #414a4c;
+    color: #414a4c;
 }
 
 @media(min-width:992px) {
@@ -285,7 +296,7 @@ background: #f8f8ff;
 
 h4 {
     font-family: 'Mulish', sans-serif;
-    text-align: center;
+    text-align: justify;
     font-size: 30px;
     font-weight: bold;
     text-transform: capitalize;
