@@ -55,9 +55,9 @@ hr {
 .hero-title {
     text-align: center;
     font-family: 'Playfair Display', serif;
-    padding-top: 250px;
+    padding-top: 265px;
     color: white;
-    font-size: 50px;
+    font-size: 55px;
     font-weight: bold;
     text-transform: capitalize;
 }
@@ -131,6 +131,10 @@ p {
 
 /* About us section */
 /* About us hero image */
+.about-title {
+    margin-top: 90px;
+}
+
 .hero-about {
     background: url(../images/recoil-about-hero.jpg);
     background-position: center;
@@ -142,6 +146,7 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+
 
 /* Meet the band profiles section */
 
@@ -156,7 +161,7 @@ p {
 }
 
 .profile-icon {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 /* Profile border box */
@@ -169,6 +174,14 @@ p {
 
 .band h2 {
     margin-top: 25px;
+}
+
+@media(max-width:576px) {
+    h2 i {
+        display: block !important;
+        text-align: center;
+        padding: 25px;
+    }
 }
 
 .band p {
@@ -327,6 +340,14 @@ h4 {
     margin: 55px;
 }
 
+@media(max-width:576px) {
+    h4 i {
+        display: block !important;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+}
+
 
 
 /* footer */
@@ -334,6 +355,17 @@ footer {
     background-color: #f8f9fa;
     min-height: 120px;
     margin: 0;
+}
+
+.footer-contact {
+    text-align: left;
+    margin-left: 0;
+}
+
+footer span {
+    display: block;
+    text-align: center;
+    text-align-last: left;
 }
 
 .inline-block {
@@ -352,7 +384,7 @@ footer {
     border-radius: 50%;
     font-size: 13px;
     line-height: 7px;
-    text-align: center;
+   
     color: #fafafa;
     background: #8f8f8f;
     transition: all 0.35s ease-in-out;
@@ -364,19 +396,4 @@ footer {
 
 .social-links li a i:hover {
     background-color: #212529;
-}
-
-#footer-details {
-    padding: 20px;
-}
-
-footer span {
-    display: block;
-    padding-left: 10px;
-    text-align: center;
-    
-}
-
-#copy {
-    padding: 10px;
 }
