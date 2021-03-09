@@ -242,10 +242,9 @@ p {
 }
 
 /* profile text */
-jim  {
+.profile-text  {
     margin-left: auto;
     margin-right: auto;
-    border-radius: 12px;
     margin: 20px;
 }
 
