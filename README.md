@@ -51,3 +51,5 @@ The following link show our mockups designed using balsamiq. [wireframes](./asse
 ## [How to center an iframe](https://www.panayiotisgeorgiou.net/how-to-center-a-youtube-iframe-on-a-page/)
 
 ## [Fixed nav/ responsive nav/ image carousel](https://youtu.be/9cKsq14Kfsw)
+
+## [Responsive footer tutorial](https://youtu.be/Ie59s2wZYc8)
