@@ -140,6 +140,34 @@ p {
      margin-bottom: 50px;
 }
 
+#cover-text, #cover-text h2 {
+  color: #ffffff;
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* Next Show! */
+#cover-text {
+    letter-spacing: 4px;
+    width: 300px;
+    height: 236px;
+    background-color: rgba(167, 45, 42, 0.7);
+    bottom: 30px;
+    right: 100px;
+    position: static;
+    left: 0px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/*  
+@media screen and (max-width: 1024px) {
+    #cover-text {
+        
+    }
+}
+*/
+
 .hero-about {
     background: url(../images/recoil-about-hero.jpg);
     background-position: center;
@@ -420,27 +448,3 @@ footer .copy-right {
 
 
 
-#cover-text, #cover-text h2 {
-  color: #ffffff;
-  margin-top: 15px;
-  text-align: center;
-}
-
-#cover-text {
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  width: 300px;
-  height: 200px;
-  background-color: rgba(241, 109, 107, .7);
-  bottom: 30px;
-  right: 100px;
-  position: static;
-}
-
-@media screen and (max-width: 943px) {
-    #cover-text {
-        left: 0px;
-        margin-left: auto !important;
-        margin-right: auto !important;
-    }
-}
