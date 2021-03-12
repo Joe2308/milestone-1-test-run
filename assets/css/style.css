@@ -62,7 +62,7 @@ hr {
     text-transform: capitalize;
 }
 
-/* Hero image cta buttons */
+/* Hero images cta buttons */
 .btn-outline-light {
     color: #fff;
     border: 2px solid white;
@@ -131,8 +131,13 @@ p {
 
 /* About us section */
 /* About us hero image */
+
 .about-title {
-    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.about-us .btn {
+     margin-bottom: 50px;
 }
 
 .hero-about {
@@ -411,4 +416,31 @@ footer {
 
 footer .copy-right {
     margin: 15px;
+}
+
+
+
+#cover-text, #cover-text h2 {
+  color: #ffffff;
+  margin-top: 15px;
+  text-align: center;
+}
+
+#cover-text {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  width: 300px;
+  height: 200px;
+  background-color: rgba(241, 109, 107, .7);
+  bottom: 30px;
+  right: 100px;
+  position: static;
+}
+
+@media screen and (max-width: 943px) {
+    #cover-text {
+        left: 0px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
 }
