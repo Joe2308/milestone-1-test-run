@@ -1,7 +1,18 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     letter-spacing: 1px;
     background: #f4f5f9;
 }
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
 
 /* hr dividers */
 hr {
@@ -60,7 +71,20 @@ hr {
     font-size: 55px;
     font-weight: bold;
     text-transform: capitalize;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; 
 }
+
+@keyframes hero-zoom {
+  from {
+    transform: scale(.9);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
 
 /* Hero images cta buttons */
 .btn-outline-light {
@@ -94,11 +118,6 @@ h2 {
     margin-right: 5px;
 }
 
-/* Intro paragraph background 
-.hello { 
-    background: #f4f5f9;
-} */
-
 /* Paragraph text */
 p {
     font-size: 18px;
@@ -126,7 +145,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     border-radius: 12px;
-    box-shadow: 10px 5px 5px #a9a9a9;
+    box-shadow: 10px 5px 5px #a9a9a9; 
 }
 
 /* About us section */
@@ -179,8 +198,7 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
-
-
+ 
 /* Meet the band profiles section */
 
 .band-profiles {
@@ -445,6 +463,4 @@ footer {
 footer .copy-right {
     margin: 15px;
 }
-
-
 
