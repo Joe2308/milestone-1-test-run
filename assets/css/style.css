@@ -468,6 +468,15 @@ footer h4 {
     font-size: 18px;
 }
 
+.location li a i {
+    color: black;
+    transition: color 0.2s;
+}
+
+.location li a i:hover {
+    color:#FF0000;
+}
+
 .footer .copyright {
     font-size: 1.3rem;
     text-shadow: 1px 1px black;
