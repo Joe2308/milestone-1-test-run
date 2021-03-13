@@ -1,3 +1,5 @@
+/*------------------------------------General syles body /containers /hr/---------------------------*/
+
 html, body {
     height: 100%;
     margin: 0;
@@ -13,7 +15,6 @@ body {
     margin: 0;
 }
 
-
 /* hr dividers */
 hr {
     margin-top: 4rem;
@@ -24,17 +25,16 @@ hr {
     border-radius: 50%;
 }
 
-/* Navbar */
-.container-fluid {
-    overflow: hidden;
-}
+/*-------------------------------------------- Navbar--------------------------------------------- */
 
 /* Navbar logo with link to home */
 .smaller-image {
     width: 90px; 
 }
 
-/* Home page hero image */
+/*------------------------------------------- Home Page------------------------------------------- */
+
+/* Home page hero images caraousel */
 .hero-home {
     background: url(../images/recoil-hero-1.jpg);
     background-position: center;
@@ -61,6 +61,8 @@ hr {
     min-height: 600px;
     margin-top: 55px;
 }
+
+/*--------------------------------Hero image titles and CTA buttons------------------------*/
 
 /* Hero image titles */
 .hero-title {
@@ -106,7 +108,8 @@ hr {
     text-align: center;
 }
 
-/* Intro Paragraph heading */
+/*------------------------------------Paragraph headings and text--------------------------------- */
+
 h2 {
     font-family: 'Playfair Display', serif;
     text-align: center;
@@ -130,7 +133,8 @@ p {
     margin-right: 20px;
 }
 
-/* Video section */
+
+/* ---------------------------------------Video section ------------------------------------------*/
 .watch-now {
     background: #f8f8ff;
 }
@@ -148,9 +152,9 @@ p {
     box-shadow: 10px 5px 5px #a9a9a9; 
 }
 
-/* About us section */
-/* About us hero image */
+/* ----------------------------------------------About us section --------------------------------*/
 
+/* About us hero image title */
 .about-title {
     margin-bottom: 50px;
 }
@@ -159,13 +163,14 @@ p {
      margin-bottom: 50px;
 }
 
+/* Next show sticker text */
 #cover-text, #cover-text h2 {
   color: #ffffff;
   margin-top: 15px;
   text-align: center;
 }
 
-/* Next Show! */
+/* Next Show sticker background */
 #cover-text {
     letter-spacing: 4px;
     width: 300px;
@@ -179,6 +184,7 @@ p {
     margin-right: auto !important;
 }
 
+/* ---------------------------------------About us hero image ------------------------------------*/
 .hero-about {
     background: url(../images/recoil-about-hero.jpg);
     background-position: center;
@@ -191,7 +197,7 @@ p {
     margin-right: auto;
 }
  
-/* Meet the band profiles section */
+/* ----------------------------------Meet the band profiles section ------------------------------*/
 
 .band-profiles {
     background: #f8f8ff;
@@ -207,7 +213,7 @@ p {
     font-size: 35px;
 }
 
-/* Profile border box */
+/* Profiles border box */
 .band {
     border: 1px solid black;
     margin: 20px 20px 55px 20px;
@@ -297,15 +303,17 @@ p {
     padding-left: 15px !important;
 }
 
-/* profile text */
+/* profiles text */
 .profile-text  {
     margin-left: auto;
     margin-right: auto;
     margin: 20px;
 }
 
-/* Contact us section */
- .hero-contact {
+/* ------------------------------------Contact us section ----------------------------------------*/
+ 
+/* Contact us hero image */
+.hero-contact {
     background: url(../images/recoil-couple.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -314,6 +322,7 @@ p {
     margin-top: 55px;
 }
 
+/* Contact form headings */
 h3, h5 {
     font-family: 'Playfair Display', serif;
     text-align: center;
@@ -333,12 +342,33 @@ h3, h5 {
     box-shadow: 10px 5px 5px #a9a9a9;
 }
 
+@media(max-width:768px) {
+    .bg-color-contact {
+    background: #f8f9fa;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    margin: 20px;
+    box-shadow: 10px 5px 5px #a9a9a9;
+}
+}
+
 
 .center-form {
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
+}
+
+@media(min-width: 992px) {
+.center-form {
+    max-width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
 }
 
 .btn-secondary {
@@ -355,16 +385,10 @@ h3, h5 {
     color: #414a4c;
 }
 
-@media(min-width:992px) {
-.center-form {
-    max-width: 55%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 80px;
-}
-}
 
-/* Why us */
+
+/*--------------------------------------- Why us section----------------------------------------- */
+
 .why-us { 
 background: #f8f8ff;
 }
@@ -388,12 +412,17 @@ h4 {
 
 
 
-/* footer */
+/* -----------------------------------------------footer -----------------------------------------*/
+
 footer {
     background-color: #f8f9fa;
     min-height: 120px;
     margin: 0;
     padding-bottom: 15px;
+}
+
+footer h4 {
+    margin: 25px;
 }
 
 .inline-block {
