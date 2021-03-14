@@ -185,7 +185,7 @@ p {
 }
 
 /* ---------------------------------------About us hero image ------------------------------------*/
-.hero-about {
+.hero-about { 
     background: url(../images/recoil-about-hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -196,7 +196,21 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
- 
+
+/*  
+@media(max-width:768px) {
+ .hero-about {
+     height: 100vh;
+ }
+ .about-title {
+     margin: 10px;
+ }
+ #cover-text {
+     display: none;
+ }
+}
+*/
+
 /* ----------------------------------Meet the band profiles section ------------------------------*/
 
 .band-profiles {

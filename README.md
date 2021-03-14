@@ -1,10 +1,190 @@
 # Milestone Project 1
+![Recoil Wedding Band Logo](https://browser-harlequin-stingray-pkzy6d9p.ws-eu03.gitpod.io/workspace/milestone-1-test-run/assets/images/recoil-logo.png "Recoil Wedding Band")
 
 This project is based on a corporate events / wedding band that has a growing fan base in Ireland and the Uk. 
-
 The main objectives for the site are to book more gigs and also gain more followers on social media. 
+To achieve these goals I have included emotive and visual content to grab the users attention.
+The site's layout allows for easy navigation to guide the user towards the best information that will lead to a conversion in the form of a direct booking or a contact form enquiry.
+
 
 # UX
+
+## Strategy:
+### What are we making?
+A website that offers insight to fans and potential clients about our events band. 
+
+### What are business goals?
+1. Get more fans on social media. 
+1. Get more people to attend our gigs and showcases. 
+1. Ultimately get more bookings and revenue.
+
+### Who is the target audience?
+1. Corporate fnctions 
+1. Wedding couples. 
+
+### What experience is compelling them?
+The need for entertainment for their event, but not having time to go see and speak to multiple acts. 
+
+### What value will our site add for visitors?
+It will make booking live entertainment for an event hassle free in the least amount steps possible.
+
+### What will users expect?
+1. Quality entertainment showcased in a great video. 
+1. No fuss swift booking. 
+1. Entertaining background knowledge on the band.
+
+### What is worth doing?
+1. Embedding a video showcasing the band's energy an talent. 
+1. A contact form for more bookings. 
+1. Use of call to action buttons to guide the user towards a conversion.
+1. Quality images and interesting content about the band.
+
+### Single use learning:
+I made this website easy to navigate and intuitive for first time users.
+The content is laid out to allow for the least possible steps to a conversion booking. 
+
+* what makes it a good experience?
+1. Simple outlay. 
+1. Emotive images.
+1. Exciting video.
+1. Lots of background info on band members. 
+1. Simple navigation.
+1. Easy to book and contact the band directly.
+
+### Where would a user go first and why?
+First time users will be most engaged by the live video.
+The video conveys what the band's performance will be like for the user's upcoming event.
+
+### How do we initiate an impulse buy/booking?
+Feel good content with CTA flow to lead to completing the booking form or at the very least follow the band on social media.
+
+## Scope:
+
+### Features for this release:
+1. video
+1. Contact form
+1. Upcoming show sticker
+1. Emotive images 
+1. Rich informative content on the band
+1. Social media links
+
+### What are the user requirements:
+1. The ability to see live video
+1. The ability to attend live showcases
+1. The ability to contact band
+1. The ability to read rich content
+1. The ability to follow the band on social media 
+1. The ability to view images
+
+### How will we achieve these requirements?
+1. By adding a video to home page of a live performance
+1. By showing our next event details on a landing page
+1. By implementing a contact form
+1. Good headings and paragraphs that are informative and enjoyable to read
+1. Appropriate social links in the footer and also by use of natural internal links in the content
+1. Each page will have a hero image and also each section on each page will begin with an image
+
+### Features to add for future releases:
+1. Availability calender
+1. Live chat
+1. Virtual showcases
+
+## Structure:
+
+### Navigation
+I have implemented a single page site of 3 sectons:
+1. Home
+1. About Us
+1. Contact Us
+1. The header also contains the band logo which has a return to home link.
+
+I have used a fixed navigation bar to allow users to move to any other section from their current section. 
+This creates a better user experience and avoids excessive scrolling. I have also implemented the use of embedding text links throughout sections of content that relates to other important content internally and externally such as the band's social media platforms.
+The linking stucture keeps my user experience strategy in mind of generating conversions through contact form enquiries and social media followers.
+
+### Home
+The home page gives an over all synopsis on the band and also contains a video. The main goal is to encourage users to book through the contact form so I have embedded a link in the paragraph text to peak user interest and encourage an enquiry.
+The home page consists of a carousel of three hero images of the band performing live. I have placed a "Learn More" CTA button to click directly to the contact form over the image and also another "Watch Now" CTA that brings the user to the video section.
+The video on the home page encourages enagement and I have also embedded an external link below the video to the band's YouTube channel to encourage new suscribers.
+
+### About us
+The About US section consists of a hero image that contains details of the band's next show and also contains a "Meet the band" CTA button which brings the user to informative biographies on each band member. 
+I have embedded an external link to the band's Facebook page to encourage new followers and the link text flows naturally with the context of the content. 
+The band member profile again encourages engagement by bringing forth new information on each member. This is an interesting addition for both fans of the band and new users.
+
+### Contact US 
+The Contact Us section includes a hero image with a CTA button that brings the user directly to a simple contact form. Just three steps are available; Name> Email> Message. 
+My intent to keep the contact form as simple as possible was to minimize cognitive overload and encourage users to reach out with either a direct booking being generated or a more general enquiry regarding price or upcomiing shows. 
+A direct booking is the preferred outcome but I regard a general enquiry as a successful conversion as from here a narrative can begin with the band managment and a percentage of general enquiries can be seduced to a confirmed booking.
+
+## Skeleton:
+
+### Presentation
+1. Simple layout
+1. Hero image for each section
+1. Fixed navigation
+1. Consistent layout and theme
+
+### User conventional tools:
+1. Clear headings 
+1. Clickable elements clearly labelled 
+1. Easy to read nav bar 
+1. Social media links in the form of clickable icons in the footer. 
+
+### Progressive disclosure:
+I have placed our priority content on the home page so the user sees this first.
+I have arranged the supporting content in order of priority in additional sections. 
+Each section links to the most important items to engage users and encourage a conversion.
+
+### Elements that have priority:
+1. Navigation menu with fixed scrolling
+1. Clickable logo with return to home link
+1. Video and hero images 
+1. Social media links
+1. Contact form
+
+## Surface
+
+### Colors:
+My theme has been kept extremely simple and is based on a white wedding.
+Background colors have been kept to shades of white and off whites and silvers. The CTA buttons are a shade of deep red.
+These colors convey the prominent themes of a traditional wedding. 
+When brainstorming the main themes of a wedding the following things came to mind:
+1. Wedding dress - Usually white and off white colors (main background theme)
+1. Love - The most conventional symbol is the heart - red in color (Used on all CTA buttons)
+2. Dining with friends and family - A huge part of a wedding is sitting down to an extravagant meal with loved ones and the first thing that came to my mind was cutlery.
+I have used light greys and silvers in some sections to convey this.
+
+### Fonts:
+- For the headings I have used Playfair display in uppercase for its elegant style.
+Headings that are on a background image are white to stand out more. And headings over paragraph sections have been left black.
+- For the main text I have used Mulish with a back up of sans-serif at 18px. 
+I used Mulish as it is very legible and also pairs well with Playfair Display.
+
+### Images: 
+All images have been taken from a live performance by a professional photographer called Mark Duffy. Please see [credits](#credits) for more info on Mark.
+The images are bright and vibrant and really bring a sense of what a live performance by Recoil will be like for a potential client.
+
+### Order and sequence:
+1. Navigation order - Home/ About Us/ Contact US
+1. Home section order - Hero image carousel/ Heading/ Intro paragraph/ Video
+1. About Us section order - Hero image/  Heading and intro paragraph/ Meet the band profiles
+1. Contact Us section order - Hero image/ Heading and paragraph/ Contact form/ Why us?
+1. Footer section order - Band name/ social links/ contact details/ copyright
+
+### Other themes:
+1. Use of musical instrument icons from font Awesome for the meet the band section
+1. Use of subtle shadows to lift some elements off the page
+
+
+
+
+
+
+
+
+
+
 
 Based on my user story, this website is designed for three types of users:
 
@@ -43,6 +223,10 @@ We have relied on exciting images of live music and red theme for our call to ac
 We have used fixed scrolling navigation menu to minimize user scrolling
 
 The following link show our mockups designed using balsamiq. [wireframes](./assets/wireframes/mockups.pdf)
+
+
+
+
 
 ## Credits
 
