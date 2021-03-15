@@ -1,5 +1,5 @@
 # Milestone Project 1
-![Recoil Wedding Band Logo](https://browser-harlequin-stingray-pkzy6d9p.ws-eu03.gitpod.io/workspace/milestone-1-test-run/assets/images/recoil-logo.png "Recoil Wedding Band")
+![Recoil Wedding Band Logo](/assets/images/recoil-logo.png)
 
 This project is based on a corporate events / wedding band that has a growing fan base in Ireland and the Uk. 
 The main objectives for the site are to book more gigs and also gain more followers on social media. 
@@ -188,7 +188,7 @@ Headings that are on a background image are white to stand out more. And heading
 I used Mulish as it is very legible and also pairs well with Playfair Display.
 
 ### Images: 
-All images have been taken from a live performance by a professional photographer called Mark Duffy. Please see [credits](#credits) for more info on Mark.
+All images have been taken from a live performance by a professional photographer called Mark Duffy. Please see [media](#media) for more info on Mark.
 The images are bright and vibrant and really bring a sense of what a live performance by Recoil will be like for a potential client.
 
 ### Order and sequence:
@@ -235,10 +235,42 @@ There are some features that I would love to implement on future releases:
 ### 1. Virtual showcases - In today's world this would be an amazing option which would include an upcoming show notice and count down timer with the option for users to book their attendance to a virtual showcase.
 Users who have booked will be emailed a zoom link and a reminder notification when show is about to start.
 
+# Technologies Used:
+
+1. [Balsamiq](https://balsamiq.com/wireframes/)
+
+1. [HTML](https://en.wikipedia.org/wiki/HTML)
+
+2. [CSS](https://en.wikipedia.org/wiki/CSS)
+
+3. [Bootstrap 4](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+
+4. [Font Awesome](https://fontawesome.com/)
+
+5. [Google Fonts](https://fonts.google.com/)
+
+6. [Gitpod](https://www.gitpod.io/)
+
+1. [Github](https://github.com/)
+
+1. [W3C HTML validator](https://validator.w3.org/)
+
+1. [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
+
+1. [Photoshop](https://www.adobe.com/ie/products/photoshop.html)
+
+1. [Youtube](https://www.youtube.com/)
+
+1. [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
 
 
 
 
+## Media 
+All images and videos are property of Recoil Wedding Band. 
+The video was filmed on location in Cork and edited by [Epic Productions](https://www.facebook.com/EpicProductionsIreland/)
+
+Images were taken by [Mark Duffy Photography](https://www.markduffyphotography.com/)
 
 
 
