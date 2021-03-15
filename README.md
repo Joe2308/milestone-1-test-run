@@ -14,7 +14,7 @@ To keep in line with the syle expected from weddings and corporate events I have
 I have relied on exciting images of live music and red theme for the call to action buttons. 
 I have used fixed scrolling navigation menu to minimize user scrolling
 
-The following link shows the mockups designed using balsamiq. [wireframes](/assets/wireframes/mockups.pdf)
+The following link shows the mockups designed using balsamiq. [wireframes](../wireframes/mockups.pdf)
 
 ### User Stories
 1. #### Companies - that are looking to book exciting corporate entertainment for an upcoming social or team building event.
