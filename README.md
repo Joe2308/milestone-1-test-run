@@ -129,10 +129,6 @@ Feel good content with CTA flow to lead to completing the booking form or at the
 1. Appropriate social links in the footer and also by use of natural internal links in the content
 1. Each page will have a hero image and also each section on each page will begin with an image
 
-### Features to add for future releases:
-1. Availability calender
-1. Live chat
-1. Virtual showcases
 
 ## Structure:
 
@@ -146,21 +142,6 @@ I have implemented a single page site of 3 sectons:
 I have used a fixed navigation bar to allow users to move to any other section from their current section. 
 This creates a better user experience and avoids excessive scrolling. I have also implemented the use of embedding text links throughout sections of content that relates to other important content internally and externally such as the band's social media platforms.
 The linking stucture keeps my user experience strategy in mind of generating conversions through contact form enquiries and social media followers.
-
-### Home
-The home page gives an over all synopsis on the band and also contains a video. The main goal is to encourage users to book through the contact form so I have embedded a link in the paragraph text to peak user interest and encourage an enquiry.
-The home page consists of a carousel of three hero images of the band performing live. I have placed a "Learn More" CTA button to click directly to the contact form over the image and also another "Watch Now" CTA that brings the user to the video section.
-The video on the home page encourages enagement and I have also embedded an external link below the video to the band's YouTube channel to encourage new suscribers.
-
-### About us
-The About US section consists of a hero image that contains details of the band's next show and also contains a "Meet the band" CTA button which brings the user to informative biographies on each band member. 
-I have embedded an external link to the band's Facebook page to encourage new followers and the link text flows naturally with the context of the content. 
-The band member profile again encourages engagement by bringing forth new information on each member. This is an interesting addition for both fans of the band and new users.
-
-### Contact US 
-The Contact Us section includes a hero image with a CTA button that brings the user directly to a simple contact form. Just three steps are available; Name> Email> Message. 
-My intent to keep the contact form as simple as possible was to minimize cognitive overload and encourage users to reach out with either a direct booking being generated or a more general enquiry regarding price or upcomiing shows. 
-A direct booking is the preferred outcome but I regard a general enquiry as a successful conversion as from here a narrative can begin with the band managment and a percentage of general enquiries can be seduced to a confirmed booking.
 
 ## Skeleton:
 
@@ -222,7 +203,37 @@ The images are bright and vibrant and really bring a sense of what a live perfor
 1. Use of subtle shadows to lift some elements off the page
 
 
+# Features:
 
+### Home
+The home page gives an over all synopsis on the band and also contains a video. The main goal is to encourage users to book through the contact form so I have embedded a link in the paragraph text to peak user interest and encourage an enquiry.
+The home page consists of a bootstrap carousel of three hero images of the band performing live. As well as studying the bootstrap documentation I found a very helpfull youtube video to help with this function. Please see [credits](#credits) for full details. I have placed a "Learn More" CTA button to click directly to the contact form over the image and also another "Watch Now" CTA that brings the user to the video section.
+The video on the home page encourages enagement and I have also embedded an external link below the video to the band's YouTube channel to encourage new suscribers.
+
+### About us
+The About US section consists of a hero image that contains details of the band's next show. To implement the next show sticker I found Code Institute's [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/) module very helpfull. 
+The hero image also contains a "Meet the band" CTA button which brings the user to informative biographies on each band member. 
+I have embedded an external link to the band's Facebook page to encourage new followers and the link text flows naturally with the context of the content. 
+The band member profile again encourages engagement by bringing forth new information on each member. This is an interesting addition for both fans of the band and new users.
+
+### Contact US 
+The Contact Us section includes a hero image with a CTA button that brings the user directly to a simple contact form. Just three steps are available; Name> Email> Message. 
+My intent to keep the contact form as simple as possible was to minimize cognitive overload and encourage users to reach out with either a direct booking being generated or a more general enquiry regarding price or upcomiing shows. 
+A direct booking is the preferred outcome but I regard a general enquiry as a successful conversion as from here a narrative can begin with the band managment and a percentage of general enquiries can be seduced to a confirmed booking.
+
+### Footer
+I have added social media links and contact details in the footer. All footer location icons are clickable and work in external tabs.
+I also added copyright details in a seperate bootstrap collumn. I played around with bootstrap's grid breakpoints to see what worked best on what devices.
+Aswell as referring to bootstrap documentation I also found a very usefull YouTube video to help me implement the style I was looking for, please see [credits](#credits) for more details.
+I then add my personal style in css.
+
+### Features to add for future releases:
+There are some features that I would love to implement on future releases:
+
+#### 1. Availability calender - Allow the user to get instant feedback availability by inputting their event details
+### 1. Live chat - This would be a great support option to engage with new users and reduce bounce rate and increase session times
+### 1. Virtual showcases - In today's world this would be an amazing option which would include an upcoming show notice and count down timer with the option for users to book their attendance to a virtual showcase.
+Users who have booked will be emailed a zoom link and a reminder notification when show is about to start.
 
 
 
@@ -242,3 +253,5 @@ The images are bright and vibrant and really bring a sense of what a live perfor
 ## [Fixed nav/ responsive nav/ image carousel](https://youtu.be/9cKsq14Kfsw)
 
 ## [Responsive footer tutorial](https://youtu.be/Ie59s2wZYc8)
+
+## [Love Running hero image](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/)
