@@ -1,7 +1,9 @@
 # Milestone Project 1
 ![Recoil Wedding Band Logo](/assets/images/recoil-logo.png)
 
-This project is based on a corporate events / wedding band that has a growing fan base in Ireland and the Uk. 
+This project is based on a corporate events / wedding band that has a growing fan base in Ireland and the Uk. It is actually my own band that I set up 10 years ago but is no longer together and does not have an existing website.
+I had alot of images and videos from different events of which I am the owner. I worked as a musician in the wedding and corporate events industry for almost 15 years and I was delighted to see this as an option for my first milestone project.
+
 The main objectives for the site are to book more gigs and also gain more followers on social media. 
 To achieve these goals I have included emotive and visual content to grab the users attention.
 The site's layout allows for easy navigation to guide the user towards the best information that will lead to a conversion in the form of a direct booking or a contact form enquiry.
@@ -9,25 +11,25 @@ The site's layout allows for easy navigation to guide the user towards the best 
 
 # UX
 
-## UX Mock Ups
+## UX Mock Ups:
 To keep in line with the syle expected from weddings and corporate events I have kept the website design simple and clean with the main background being white with black text that is well spaced. 
-I have relied on exciting images of live music and red theme for the call to action buttons. 
-I have used fixed scrolling navigation menu to minimize user scrolling
+I have relied on exciting images of live music and a red theme for the call to action buttons. 
+I have used a fixed scrolling navigation menu to minimize user scrolling
 
-The following link shows the mockups designed using balsamiq. [wireframes](/assets/wireframes/mockups.pdf)
+The following link shows the mockups designed using [Balsamiq wireframes](/assets/wireframes/mockups.pdf)
 
-### User Stories
+### User Stories:
 1. #### Companies - that are looking to book exciting corporate entertainment for an upcoming social or team building event.
 1. #### Wedding couples - that are looking to book great live entertainment for their wedding reception.
-1. #### Fans and followers - that know the band and have been to previous events but would like to find out more about the band and where to find and follow us on social media.
+1. #### Fans and followers - that know the band and have been to previous events but would like to find out more about the band and where to find and follow them on social media.
 
 ## User story 1 - Corporate Bookings
-From research many of small to medium size companies hold up to 3 social events and 10 team building events each business year. 
+From research many small to medium size companies hold up to 3 social events and 10 team building events each business year. 
 These can range from gala dinners to motivational speaking and of course the annual Christmas Party.
 
 Each of these events require appropriate professional entertainment. 
 The purpose of the website is to provide information on the band's experience with corporate entertainment while also showing the user a live video of the band in action entertaining at a large function. 
-This shows the user they have come to right place and our band is the only band for their event.
+This shows the user they have come to right place and this band is the only band for their event.
 
 From here the site will simply guide the user to fill out a contact form and proceed with a swift booking of the band based on availability. 
 I understand that corporate users are very busy and have other commitments to their day, the
@@ -47,20 +49,20 @@ The live video is key here and the songs are very important. They must appeal to
 At this point the site will guide the couples to complete a booking form or at the very least enquire about a possible booking.
 
 ## User story 3 - Fans and followers
-This type of user is just as important as any other as one of the things potential clients will check is out social media accounts as it evokes trust and brand awareness. 
+This type of user is just as important as any other as one of the things potential clients will check is the band's social media accounts as it evokes trust and brand awareness. 
 Potential clients will be looking at how many followers the band have aswell as extra images from past live events. It is vital I use the website to push the band's presence on social media platforms such as Facebook and Instagram.
 
 Many of the audiences from past events tend to follow on social media the next day and comment on pictures the band posts from the events they attended. 
 I have decided the website is a great option to reinforce this behaviour. I have incorporated an ABOUT US page where visitors can learn more about each member of the band and any upcoming shows. 
-To encourage new visitors landing on the website to follow the band on facebook  I have added social media icons in the footer aswel as embedded links to social media throughout the content.
+To encourage new visitors landing on the website to follow the band on facebook  I have added social media icons in the footer aswell as embedded links to social media throughout the content.
 
 ## Strategy:
 ### What am I making?
-A website that offers insight to fans and potential clients about our events band. 
+A website that offers insight to fans and potential clients about an events band. 
 
 ### What are the business goals?
 1. Get more fans on social media. 
-1. Get more people to attend our gigs and showcases. 
+1. Get more people to attend gigs and showcases. 
 1. Ultimately get more bookings and revenue.
 
 ### Who is the target audience?
@@ -70,7 +72,7 @@ A website that offers insight to fans and potential clients about our events ban
 ### What experience is compelling them?
 The need for entertainment for their event, but not having time to go see and speak to multiple acts. 
 
-### What value will our site add for visitors?
+### What value will the site add for visitors?
 It will make booking live entertainment for an event hassle free in the least amount steps possible.
 
 ### What will users expect?
@@ -79,7 +81,7 @@ It will make booking live entertainment for an event hassle free in the least am
 1. Entertaining background knowledge on the band.
 
 ### What is worth doing?
-1. Embedding a video showcasing the band's energy an talent. 
+1. Embedding a video showcasing the band's energy and talent. 
 1. A contact form for more bookings. 
 1. Use of call to action buttons to guide the user towards a conversion.
 1. Quality images and interesting content about the band.
@@ -88,7 +90,7 @@ It will make booking live entertainment for an event hassle free in the least am
 I made this website easy to navigate and intuitive for first time users.
 The content is laid out to allow for the least possible steps to a conversion booking. 
 
-* what makes it a good experience?
+### What makes it a good experience?
 1. Simple outlay. 
 1. Emotive images.
 1. Exciting video.
@@ -100,7 +102,7 @@ The content is laid out to allow for the least possible steps to a conversion bo
 First time users will be most engaged by the live video.
 The video conveys what the band's performance will be like for the user's upcoming event.
 
-### How do we initiate an impulse buy/booking?
+### How do I initiate an impulse buy/booking?
 Feel good content with CTA flow to lead to completing the booking form or at the very least follow the band on social media.
 
 ## Scope:
@@ -116,7 +118,7 @@ Feel good content with CTA flow to lead to completing the booking form or at the
 ### What are the user requirements:
 1. The ability to see live video
 1. The ability to attend live showcases
-1. The ability to contact band
+1. The ability to contact the band
 1. The ability to read rich content
 1. The ability to follow the band on social media 
 1. The ability to view images
@@ -158,7 +160,7 @@ The linking stucture keeps my user experience strategy in mind of generating con
 1. Social media links in the form of clickable icons in the footer. 
 
 ### Progressive disclosure:
-I have placed our priority content on the home page so the user sees this first.
+I have placed the priority content on the home page so the user sees this first.
 I have arranged the supporting content in order of priority in additional sections. 
 Each section links to the most important items to engage users and encourage a conversion.
 
@@ -225,15 +227,14 @@ A direct booking is the preferred outcome but I regard a general enquiry as a su
 I have added social media links and contact details in the footer. All footer location icons are clickable and work in external tabs.
 I also added copyright details in a seperate bootstrap collumn. I played around with bootstrap's grid breakpoints to see what worked best on what devices.
 Aswell as referring to bootstrap documentation I also found a very usefull YouTube video to help me implement the style I was looking for, please see [credits](#credits) for more details.
-I then add my personal style in css.
+I then added my personal style preference in css.
 
 ### Features to add for future releases:
 There are some features that I would love to implement on future releases:
 
-#### 1. Availability calender - Allow the user to get instant feedback availability by inputting their event details
-### 1. Live chat - This would be a great support option to engage with new users and reduce bounce rate and increase session times
-### 1. Virtual showcases - In today's world this would be an amazing option which would include an upcoming show notice and count down timer with the option for users to book their attendance to a virtual showcase.
-Users who have booked will be emailed a zoom link and a reminder notification when show is about to start.
+#### 1. Availability calender - Allow the user to get instant feedback on availability by inputting their event details
+#### 1. Live chat - This would be a great support option to engage with new users and reduce bounce rate and increase session times
+#### 1. Virtual showcases - In today's world this would be an amazing option which would include an upcoming show notice and count down timer with the option for users to book their attendance to a virtual showcase. Users who have booked will be emailed a zoom link and a reminder notification when show is about to start.
 
 # Technologies Used:
 
@@ -264,6 +265,19 @@ Users who have booked will be emailed a zoom link and a reminder notification wh
 1. [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
 
 
+# Testing:
+
+# HTML and CSS validation and fixes:
+1. I used [W3C CSS validation service](https://jigsaw.w3.org/css-validator/validator) to test and check my CSS code. I luckily had no issues to find and fix. 
+
+![W3C CSS test](/assets/images/w3c-css.png)
+
+1. I used [W3C HTML validation service](https://validator.w3.org/) to test and check my HTML code. There were some errors with not enough headings as seen in image. 
+
+![W3C HTML test](/assets/images/w3c-html.png)
+
+
+
 
 
 ## Media 
@@ -287,3 +301,6 @@ Images were taken by [Mark Duffy Photography](https://www.markduffyphotography.c
 ## [Responsive footer tutorial](https://youtu.be/Ie59s2wZYc8)
 
 ## [Love Running hero image](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/)
+
+
+# Acknowledgements:
