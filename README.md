@@ -8,6 +8,7 @@ The main objectives for the site are to book more gigs and also gain more follow
 To achieve these goals I have included emotive and visual content to grab the users attention.
 The site's layout allows for easy navigation to guide the user towards the best information that will lead to a conversion in the form of a direct booking or a contact form enquiry.
 
+![Recoil Wedding Band Website](/assets/images/responsive.png)
 
 # UX
 
@@ -239,33 +240,93 @@ There are some features that I would love to implement on future releases:
 # Technologies Used:
 
 1. [Balsamiq](https://balsamiq.com/wireframes/)
+* I found Balsamique an extremely usefull platform to design mock ups and get a feel of how my website would look before coding.
 
 1. [HTML](https://en.wikipedia.org/wiki/HTML)
+* HTML is the main mark up language used to design my webiste.
 
 2. [CSS](https://en.wikipedia.org/wiki/CSS)
+* All HTML element were syled to my own personal taste using CSS language.
 
 3. [Bootstrap 4](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+* In order to make my website responsive I used the bootstrap 4 grid system. I also used bootstrap to help with my image carousel.
 
 4. [Font Awesome](https://fontawesome.com/)
+* All icons have been sourced and added from the free version of font awesome.
 
 5. [Google Fonts](https://fonts.google.com/)
+* I used google fonts to source both Playfair Display and Mulish to syle all of my headings and text.
 
 6. [Gitpod](https://www.gitpod.io/)
+* I used git pod as my IDE workspace to write and run all code. I used Git as my version control to commit and push all code to my GitHub repository.
 
 1. [Github](https://github.com/)
+* I used GitHub to store my Git commits and back up all code.
 
 1. [W3C HTML validator](https://validator.w3.org/)
+* I used the W3C validation service to ensure all HTML code passed validation.
 
 1. [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
+* I used the W3C validation service to ensure all CSS code passed validation.
 
 1. [Photoshop](https://www.adobe.com/ie/products/photoshop.html)
+* I used Adobe photoshop to create the band logo and favicon.
 
 1. [Youtube](https://www.youtube.com/)
+I used YouTube to embed the video using iframes.
 
 1. [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+Throughout the development process I used chrome developer tools for debugging and also to keep checking any changes I was making looked good on all devices.
 
 
 # Testing:
+
+## User story testing:
+
+1. **As a HR assistant for a large company** I have been tasked with booking a professional band for the companies summer barbeque. 
+Having searched some keywords on google the website for Recoil Wedding Band catches my eye. The website is quick to load and the landing page has an eye catching image of a well dressed five piece act that look like professionals in their field.
+I am intrigued. The landing page hero image has a button that says "Watch Now" on clicking I am brought to a very slick and professional video of the band showcasing an amazing performance of songs that will definatley fill the dancefloor.
+I am tempted to get in touch and on clicking Contact US I am presented with a simple three step contact form. I input my event details and a swift reply on availability allows me to book there and then.
+
+1. **As a bride** seeking the perfect band to entertain my guests at my wedding reception I begin my online search. On entering the Recoil Wedding Band webise I find the layout simple, elegant and easy to navigate.
+The text content is not overwheling yet it is informative. I would like to see and hear how the band sounds. The "Watch Now" button brings me to an excellent live video. From here I am interested in finding out more about each band member.
+The fixed navigation means I never have to scroll to the top and the menu is always one click away. I click on About Us and I am brought to a meet the band section that has a photo and bio on each band member. Having felt I have gottent to know the band I now would like to get in touch. I click on the "Get in Touch" button below the meet the band section and I am brought to a contact form.
+I fill out the form and begin correspondance with the band.
+
+1. **As a fan** I would like to know more about Recoil Wedding Band and when they have their next show. On scrolling the webiste and reading lots of informative information
+there are many embedded links in the text that bring me to other resources such as the band's YouTube channel. I have never seen some of the videos on there and decide to like and suscribe I also tell my friends about it.
+These links open in external tabs so finding my way back to the website is easy. In the About Us section I could cleary see a notice about the band's next upcoming show and I made a note in my calender. In the footer I find Social media icons and on clicking I find the band has a strong presence on Facebook and Instagram. There is also extra content on here that I have never seen before so I like and suscribe and also tell my friends about it.
+The next time I visit the band's social media I notice their fanbase has grown rapidly.
+
+# Manual Testin:
+
+#### Responsive design:
+* I also carried out exstensive user testing and consistently checked links and multiple screen sizes on different devices.
+Although I have used bootstrap I did notice that on a mobile screen my hero images didnt show the full scope that the desktop screen showed. 
+I experimented with media queries to allow the images to fill the divs on mobile screens however this meant my titles and CTA buttons that were overlayed on hero images would also need to reduce in size. 
+However I did not like how this looked. I decided to not show The CTA buttons on mobile but this did not align with my ux design as most visitors use mobile devices. 
+After researching other popular sites and checking their websites on different screen sizes I found that their website was similar full width background images although not showing all the content as on desktop still looked great. 
+
+#### Call to action buttons:
+* I checked and rechecked all buttons were working on all devices and were leading to the correct sections of the website. I was also important that I layed out 
+my CTA choices in order of priorty to my user stories with a button to find a live video and a button for the contact form being the most important.
+
+#### Bootstrap break points:
+I applied media queries for my font awesome icons to display in block format only smaller screens and I checked this on all devices.
+
+#### Contact form:
+I used a background image of spotlights which I made in photoshop to give and effect of lighting up the contact form. 
+This looked great on desktop and larger devices however it looked cluttered on smaller screens so I decided to used a simple background color on small devices and implemented this with a media query.
+I also exstensively tested the contact form. Making sure all of my "required" attribute were working. The from would not send if a field was left empty or did not contain the correct format of information such as a valid email address.
+
+#### External links:
+I made sure to check that all links and social media links were directed to the correct URLS and also that my target="_blank" attribute was working. 
+All external links open in a new browser tab.
+
+#### Email and phone:
+I also added a mailto: link to and telephone: link to a working email address and phone number and testing to make sure they were working.
+When clicked the email icon opens my email tab and the emais are sending to the assigned source. When the phone icon is clicked desktop opens skype and mobile makes a direct call.
+
 
 # HTML and CSS validation and fixes:
 1. I used [W3C CSS validation service](https://jigsaw.w3.org/css-validator/validator) to test and check my CSS code. I luckily had no issues to find and fix. 
