@@ -48,17 +48,40 @@ hr {
     margin-top: 55px;
 }
 
- /*  
+
+ 
 @media(max-width: 768px) {
-    .carousel-inner {
-        background: url(../images/recoil-hero-2.jpg);
+    .hero-home {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 600px;
-    margin-top: 70px;
+    min-height: fit-content;
+    margin-top: 55px;
+    }
+    .btn-lg {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
 }
-*/
+
+@media(max-width: 280px) {
+    .hero-home {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: fit-content;
+    margin-top: 55px;
+    }
+    #home .home-learn {
+        display: none;
+    }
+    #home .hero-title {
+
+    }
+    .hero-title {
+        font-size: 25px !important;
+    }
+}
 
 .hero-2 {
     background: url(../images/recoil-hero-2.jpg);
@@ -66,7 +89,30 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 600px;
+    margin-top: 55px;
+}
+
+@media(max-width: 768px) {
+    .hero-2 {
+        background: url(../images/recoil-hero-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: fit-content;
     margin-top: 70px;
+    }
+    .carousel-indicators li {
+        display: none;
+    }
+    .carousel-control-next {
+        display: none;
+    }
+    .carousel-control-prev {
+        display: none;
+    }
+    .btn-hero {
+        font-size: 18px !important;
+    }
 }
 
 .hero-3 {
@@ -76,6 +122,16 @@ hr {
     background-size: cover;
     min-height: 600px;
     margin-top: 55px;
+}
+
+@media(max-width: 768px) {
+    .hero-3 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: fit-content;
+    margin-top: 55px;
+    }
 }
 
 /*--------------------------------Hero image titles and CTA buttons------------------------*/
@@ -234,8 +290,11 @@ p {
         background-size: contain;
     }
     .hero-title {
-        font-size: 35px;
+        font-size: 30px;
         padding-top: 155px;
+    }
+    #home .hero-title {
+        margin-bottom: 0px;
     }
     h2 {
         font-size: 35px;
