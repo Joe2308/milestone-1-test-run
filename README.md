@@ -10,6 +10,14 @@ The site's layout allows for easy navigation to guide the user towards the best 
 
 ![Recoil Wedding Band Website](/assets/images/responsive.png)
 
+# CONTENT QUICK LINKS
+## [UX](#ux)
+## [FEATURES](#features)
+## [TECHNOLOGIES](#technologies-used)
+## [TESTING](#testing)
+## [MEDIA](#media)
+## [CREDITS](#credits)
+
 # UX
 
 ## UX Mock Ups:
@@ -20,68 +28,32 @@ I have used a fixed scrolling navigation menu to minimize user scrolling
 The following link shows the mockups designed using [Balsamiq wireframes](/assets/wireframes/mockups.pdf)
 
 ### User Stories:
-1. #### Companies - that are looking to book exciting corporate entertainment for an upcoming social or team building event.
-1. #### Wedding couples - that are looking to book great live entertainment for their wedding reception.
-1. #### Fans and followers - that know the band and have been to previous events but would like to find out more about the band and where to find and follow them on social media.
-
-## User story 1 - Corporate Bookings
-From research many small to medium size companies hold up to 3 social events and 10 team building events each business year. 
-These can range from gala dinners to motivational speaking and of course the annual Christmas Party.
-
-Each of these events require appropriate professional entertainment. 
-The purpose of the website is to provide information on the band's experience with corporate entertainment while also showing the user a live video of the band in action entertaining at a large function. 
-This shows the user they have come to right place and this band is the only band for their event.
-
-From here the site will simply guide the user to fill out a contact form and proceed with a swift booking of the band based on availability. 
-I understand that corporate users are very busy and have other commitments to their day, the
-website's visual and text content assures them they are making the correct choice and can now focus their attention on other tasks.
-
-## User story 2 - Wedding Couples
-From researching the wedding industry I have seen that this is a very different type of user to corporate bookings. 
-
-Many Brides and Grooms prefer to do most of their own planning and the planning in itself becomes a ritual in the 12 to 24 months leading up to a wedding. 
-Couples wil create checklists and budgets starting from wedding dress and venue and work their way down to finer details of inviations and honeymoon destinations.
-There are on average 20,000 weddings in Ireland alone each year with an average cost of €28000 for a wedding. 
-My research suggests wedding couples use strict budgets and enjoy attending fairs and showcases which will include looking at a least 4 wedding bands.
-
-With this in mind I am aware of creating an emotional response in wedding couples in order for them to commit to a booking. 
-To do this I have laid out the website elegantly and simply with clean sharp imagery of the band conveying an exciting atmosphere. 
-The live video is key here and the songs are very important. They must appeal to a wide tartget audience and come across as slick, exciting, charismatic and well rehearsed. 
-At this point the site will guide the couples to complete a booking form or at the very least enquire about a possible booking.
-
-## User story 3 - Fans and followers
-This type of user is just as important as any other as one of the things potential clients will check is the band's social media accounts as it evokes trust and brand awareness. 
-Potential clients will be looking at how many followers the band have aswell as extra images from past live events. It is vital I use the website to push the band's presence on social media platforms such as Facebook and Instagram.
-
-Many of the audiences from past events tend to follow on social media the next day and comment on pictures the band posts from the events they attended. 
-I have decided the website is a great option to reinforce this behaviour. I have incorporated an ABOUT US page where visitors can learn more about each member of the band and any upcoming shows. 
-To encourage new visitors landing on the website to follow the band on facebook  I have added social media icons in the footer aswell as embedded links to social media throughout the content.
+1. #### As a company HR assistant - I am looking to book exciting corporate entertainment for an upcoming social or team building event.
+1. #### As a wedding couple - we are looking to book great live entertainment for our wedding reception.
+1. #### As Fan - I would like to find out more about the band and where to find and follow them on social media.
 
 ## Strategy:
 ### What am I making?
 A website that offers insight to fans and potential clients about an events band. 
 
-### What are the business goals?
+### Website business goals:
 1. Get more fans on social media. 
 1. Get more people to attend gigs and showcases. 
 1. Ultimately get more bookings and revenue.
 
-### Who is the target audience?
+### Website target audience:
 1. Corporate fnctions 
 1. Wedding couples. 
 
-### What experience is compelling them?
-The need for entertainment for their event, but not having time to go see and speak to multiple acts. 
-
-### What value will the site add for visitors?
+### User value:
 It will make booking live entertainment for an event hassle free in the least amount steps possible.
 
-### What will users expect?
+### What users can expect:
 1. Quality entertainment showcased in a great video. 
 1. No fuss swift booking. 
 1. Entertaining background knowledge on the band.
 
-### What is worth doing?
+### What is worth doing:
 1. Embedding a video showcasing the band's energy and talent. 
 1. A contact form for more bookings. 
 1. Use of call to action buttons to guide the user towards a conversion.
@@ -91,7 +63,7 @@ It will make booking live entertainment for an event hassle free in the least am
 I made this website easy to navigate and intuitive for first time users.
 The content is laid out to allow for the least possible steps to a conversion booking. 
 
-### What makes it a good experience?
+### What makes it a good experience:
 1. Simple outlay. 
 1. Emotive images.
 1. Exciting video.
@@ -124,7 +96,7 @@ Feel good content with CTA flow to lead to completing the booking form or at the
 1. The ability to follow the band on social media 
 1. The ability to view images
 
-### How will we achieve these requirements?
+### How we will achieve these requirements:
 1. By adding a video to home page of a live performance
 1. By showing our next event details on a landing page
 1. By implementing a contact form
@@ -206,7 +178,7 @@ The images are bright and vibrant and really bring a sense of what a live perfor
 1. Use of subtle shadows to lift some elements off the page
 
 
-# Features:
+# Features
 
 ### Home
 The home page gives an over all synopsis on the band and also contains a video. The main goal is to encourage users to book through the contact form so I have embedded a link in the paragraph text to peak user interest and encourage an enquiry.
@@ -237,7 +209,7 @@ There are some features that I would love to implement on future releases:
 #### 1. Live chat - This would be a great support option to engage with new users and reduce bounce rate and increase session times
 #### 1. Virtual showcases - In today's world this would be an amazing option which would include an upcoming show notice and count down timer with the option for users to book their attendance to a virtual showcase. Users who have booked will be emailed a zoom link and a reminder notification when show is about to start.
 
-# Technologies Used:
+# Technologies Used
 
 1. [Balsamiq](https://balsamiq.com/wireframes/)
 * I found Balsamique an extremely usefull platform to design mock ups and get a feel of how my website would look before coding.
@@ -279,7 +251,7 @@ I used YouTube to embed the video using iframes.
 Throughout the development process I used chrome developer tools for debugging and also to keep checking any changes I was making looked good on all devices.
 
 
-# Testing:
+# Testing
 
 ## User story testing:
 
@@ -298,14 +270,13 @@ there are many embedded links in the text that bring me to other resources such 
 These links open in external tabs so finding my way back to the website is easy. In the About Us section I could cleary see a notice about the band's next upcoming show and I made a note in my calender. In the footer I find Social media icons and on clicking I find the band has a strong presence on Facebook and Instagram. There is also extra content on here that I have never seen before so I like and suscribe and also tell my friends about it.
 The next time I visit the band's social media I notice their fanbase has grown rapidly.
 
-# Manual Testin:
+# Manual Testing:
 
 #### Responsive design:
-* I also carried out exstensive user testing and consistently checked links and multiple screen sizes on different devices.
-Although I have used bootstrap I did notice that on a mobile screen my hero images didnt show the full scope that the desktop screen showed. 
-I experimented with media queries to allow the images to fill the divs on mobile screens however this meant my titles and CTA buttons that were overlayed on hero images would also need to reduce in size. 
-However I did not like how this looked. I decided to not show The CTA buttons on mobile but this did not align with my ux design as most visitors use mobile devices. 
-After researching other popular sites and checking their websites on different screen sizes I found that their website was similar full width background images although not showing all the content as on desktop still looked great. 
+* I carried out exstensive user testing and consistently checked links and screen sizes on all available devices in Chrome dev tools.
+* It was important for me to keep the mobile design as close to desktop as possible. To achieve this I used media queries to reduce font sizes on Hero image titles while also adjusting the hero image sizes.
+* I had to move my call to action buttons slightly on smaller screens until I achieved a design I liked while not cluttering my images.
+* On screens 280px I used a media query to remove one CTA button from my carousel as it was too clutterd and did not look correct.
 
 #### Call to action buttons:
 * I checked and rechecked all buttons were working on all devices and were leading to the correct sections of the website. I was also important that I layed out 
@@ -341,7 +312,7 @@ When clicked the email icon opens my email tab and the emais are sending to the 
 
 
 
-## Media 
+# Media 
 All images and videos are property of Recoil Wedding Band. 
 The video was filmed on location in Cork and edited by [Epic Productions](https://www.facebook.com/EpicProductionsIreland/)
 
@@ -351,7 +322,7 @@ Images were taken by [Mark Duffy Photography](https://www.markduffyphotography.c
 
 
 
-## Credits
+# Credits
 
 ## [How to resize iframes using bootstrap](https://blog.theodo.com/2018/01/responsive-iframes-css-trick/)
 
