@@ -21,7 +21,7 @@ The site's layout allows for easy navigation to guide the user towards the best 
 # UX
 
 ## UX Mock Ups:
-To keep in line with the syle expected from weddings and corporate events I have kept the website design simple and clean with the main background being white with black text that is well spaced. 
+To keep in line with the style expected from weddings and corporate events I have kept the website design simple and clean with the main background being white with black text that is well spaced. 
 I have relied on exciting images of live music and a red theme for the call to action buttons. 
 I have used a fixed scrolling navigation menu to minimize user scrolling
 
@@ -42,7 +42,7 @@ A website that offers insight to fans and potential clients about an events band
 1. Ultimately get more bookings and revenue.
 
 ### Website target audience:
-1. Corporate fnctions 
+1. Corporate functions 
 1. Wedding couples. 
 
 ### User value:
@@ -88,8 +88,8 @@ Feel good content with CTA flow to lead to completing the booking form or at the
 1. Rich informative content on the band
 1. Social media links
 
-### What are the user requirements:
-1. The ability to see live video
+### User requirements:
+1. The ability to see a live video
 1. The ability to attend live showcases
 1. The ability to contact the band
 1. The ability to read rich content
@@ -98,7 +98,7 @@ Feel good content with CTA flow to lead to completing the booking form or at the
 
 ### How we will achieve these requirements:
 1. By adding a video to home page of a live performance
-1. By showing our next event details on a landing page
+1. By showing the next event details on a landing page
 1. By implementing a contact form
 1. Good headings and paragraphs that are informative and enjoyable to read
 1. Appropriate social links in the footer and also by use of natural internal links in the content
@@ -182,7 +182,7 @@ The images are bright and vibrant and really bring a sense of what a live perfor
 
 ### Home
 The home page gives an over all synopsis on the band and also contains a video. The main goal is to encourage users to book through the contact form so I have embedded a link in the paragraph text to peak user interest and encourage an enquiry.
-The home page consists of a bootstrap carousel of three hero images of the band performing live. As well as studying the bootstrap documentation I found a very helpfull youtube video to help with this function. Please see [credits](#credits) for full details. I have placed a "Learn More" CTA button to click directly to the contact form over the image and also another "Watch Now" CTA that brings the user to the video section.
+The home page consists of a bootstrap carousel of three hero images of the band performing live. As well as studying the bootstrap documentation I found a very helpfull YouTube video to help with this function. Please see [credits](#credits) for full details. I have placed a "Learn More" CTA button to click directly to the contact form over the image and also another "Watch Now" CTA that brings the user to the video section.
 The video on the home page encourages enagement and I have also embedded an external link below the video to the band's YouTube channel to encourage new suscribers.
 
 ### About us
@@ -193,7 +193,7 @@ The band member profile again encourages engagement by bringing forth new inform
 
 ### Contact US 
 The Contact Us section includes a hero image with a CTA button that brings the user directly to a simple contact form. Just three steps are available; Name> Email> Message. 
-My intent to keep the contact form as simple as possible was to minimize cognitive overload and encourage users to reach out with either a direct booking being generated or a more general enquiry regarding price or upcomiing shows. 
+My intent to keep the contact form as simple as possible was to minimize cognitive overload and encourage users to reach out with either a direct booking being generated or a more general enquiry regarding price or upcoming shows. 
 A direct booking is the preferred outcome but I regard a general enquiry as a successful conversion as from here a narrative can begin with the band managment and a percentage of general enquiries can be seduced to a confirmed booking.
 
 ### Footer
@@ -207,17 +207,17 @@ There are some features that I would love to implement on future releases:
 
 #### 1. Availability calender - Allow the user to get instant feedback on availability by inputting their event details
 #### 1. Live chat - This would be a great support option to engage with new users and reduce bounce rate and increase session times
-#### 1. Virtual showcases - In today's world this would be an amazing option which would include an upcoming show notice and count down timer with the option for users to book their attendance to a virtual showcase. Users who have booked will be emailed a zoom link and a reminder notification when show is about to start.
+#### 1. Virtual showcases - In today's world this would be an amazing option which would include an upcoming show notice and count down timer with the option for users to book their attendance to a virtual showcase. Users who have booked will be emailed a zoom link and a reminder notification when the show is about to start.
 
 # Technologies Used
 
 1. [Balsamiq](https://balsamiq.com/wireframes/)
-* I found Balsamique an extremely usefull platform to design mock ups and get a feel of how my website would look before coding.
+* I found Balsamiq an extremely usefull platform to design mock ups and get a feel of how my website would look before coding.
 
-1. [HTML](https://en.wikipedia.org/wiki/HTML)
+1. [HTML 5](https://en.wikipedia.org/wiki/HTML)
 * HTML is the main mark up language used to design my webiste.
 
-2. [CSS](https://en.wikipedia.org/wiki/CSS)
+2. [CSS 3](https://en.wikipedia.org/wiki/CSS)
 * All HTML element were syled to my own personal taste using CSS language.
 
 3. [Bootstrap 4](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
@@ -260,12 +260,12 @@ Having searched some keywords on google the website for Recoil Wedding Band catc
 I am intrigued. The landing page hero image has a button that says "Watch Now" on clicking I am brought to a very slick and professional video of the band showcasing an amazing performance of songs that will definatley fill the dancefloor.
 I am tempted to get in touch and on clicking Contact US I am presented with a simple three step contact form. I input my event details and a swift reply on availability allows me to book there and then.
 
-1. **As a bride** seeking the perfect band to entertain my guests at my wedding reception I begin my online search. On entering the Recoil Wedding Band webise I find the layout simple, elegant and easy to navigate.
+1. **As a bride** seeking the perfect band to entertain my guests at my wedding reception I begin my online search. On entering the Recoil Wedding Band website I find the layout simple, elegant and easy to navigate.
 The text content is not overwheling yet it is informative. I would like to see and hear how the band sounds. The "Watch Now" button brings me to an excellent live video. From here I am interested in finding out more about each band member.
-The fixed navigation means I never have to scroll to the top and the menu is always one click away. I click on About Us and I am brought to a meet the band section that has a photo and bio on each band member. Having felt I have gottent to know the band I now would like to get in touch. I click on the "Get in Touch" button below the meet the band section and I am brought to a contact form.
+The fixed navigation means I never have to scroll to the top and the menu is always one click away. I click on About Us and I am brought to a meet the band section that has a photo and bio on each band member. Having felt I have gotten to know the band I now would like to get in touch. I click on the "Get in Touch" button below the meet the band section and I am brought to a contact form.
 I fill out the form and begin correspondance with the band.
 
-1. **As a fan** I would like to know more about Recoil Wedding Band and when they have their next show. On scrolling the webiste and reading lots of informative information
+1. **As a fan** I would like to know more about Recoil Wedding Band and when they have their next show. On scrolling the website and reading lots of informative information
 there are many embedded links in the text that bring me to other resources such as the band's YouTube channel. I have never seen some of the videos on there and decide to like and suscribe I also tell my friends about it.
 These links open in external tabs so finding my way back to the website is easy. In the About Us section I could cleary see a notice about the band's next upcoming show and I made a note in my calender. In the footer I find Social media icons and on clicking I find the band has a strong presence on Facebook and Instagram. There is also extra content on here that I have never seen before so I like and suscribe and also tell my friends about it.
 The next time I visit the band's social media I notice their fanbase has grown rapidly.
@@ -279,24 +279,24 @@ The next time I visit the band's social media I notice their fanbase has grown r
 * On screens 280px I used a media query to remove one CTA button from my carousel as it was too clutterd and did not look correct.
 
 #### Call to action buttons:
-* I checked and rechecked all buttons were working on all devices and were leading to the correct sections of the website. I was also important that I layed out 
+* I checked and rechecked all buttons were working on all devices and were leading to the correct sections of the website. It was also important that I laid out 
 my CTA choices in order of priorty to my user stories with a button to find a live video and a button for the contact form being the most important.
 
 #### Bootstrap break points:
-I applied media queries for my font awesome icons to display in block format only smaller screens and I checked this on all devices.
+I applied media queries for my font awesome icons to display in block format on smaller screens and I checked this on all devices.
 
 #### Contact form:
 I used a background image of spotlights which I made in photoshop to give and effect of lighting up the contact form. 
 This looked great on desktop and larger devices however it looked cluttered on smaller screens so I decided to used a simple background color on small devices and implemented this with a media query.
-I also exstensively tested the contact form. Making sure all of my "required" attribute were working. The from would not send if a field was left empty or did not contain the correct format of information such as a valid email address.
+I also exstensively tested the contact form. Making sure all of my "required" attributes were working. The form would not send if a field was left empty or did not contain the correct format of information such as a valid email address.
 
 #### External links:
 I made sure to check that all links and social media links were directed to the correct URLS and also that my target="_blank" attribute was working. 
 All external links open in a new browser tab.
 
 #### Email and phone:
-I also added a mailto: link to and telephone: link to a working email address and phone number and testing to make sure they were working.
-When clicked the email icon opens my email tab and the emais are sending to the assigned source. When the phone icon is clicked desktop opens skype and mobile makes a direct call.
+I also added a **mailto:** link and a **telephone:** link to a working email address and phone number and tested to make sure they were working.
+When clicked the email icon opens my email tab and the emails are sending to the assigned source. When the phone icon is clicked my desktop opens skype and my mobile makes a direct call.
 
 
 # HTML and CSS validation and fixes:
