@@ -1,4 +1,4 @@
-/*------------------------------------General syles body /containers /hr/---------------------------*/
+/*------------------------------------General Styles: body /containers /hr/---------------------------*/
 
 html, body {
     height: 100%;
@@ -15,7 +15,6 @@ body {
     margin: 0;
 }
 
-/* hr dividers */
 hr {
     margin-top: 4rem;
     margin-bottom: 1rem;
@@ -48,8 +47,7 @@ hr {
     margin-top: 55px;
 }
 
-
- 
+/* Image one carousel responsive */
 @media(max-width: 768px) {
     .hero-home {
     background-position: center;
@@ -75,9 +73,6 @@ hr {
     #home .home-learn {
         display: none;
     }
-    #home .hero-title {
-
-    }
     .hero-title {
         font-size: 25px !important;
     }
@@ -92,6 +87,7 @@ hr {
     margin-top: 55px;
 }
 
+/* Image 2 carousel responsive */
 @media(max-width: 768px) {
     .hero-2 {
         background: url(../images/recoil-hero-2.jpg);
@@ -124,6 +120,7 @@ hr {
     margin-top: 55px;
 }
 
+/* Image 3 carousel responsive */
 @media(max-width: 768px) {
     .hero-3 {
     background-position: center;
@@ -134,7 +131,7 @@ hr {
     }
 }
 
-/*--------------------------------Hero image titles and CTA buttons------------------------*/
+/*--------------------------------Hero Image Titles and CTA Buttons------------------------*/
 
 /* Hero image titles */
 .hero-title {
@@ -150,6 +147,7 @@ hr {
     animation-fill-mode: forwards; 
 }
 
+/* Hero image H1 titles animation */
 @keyframes hero-zoom {
   from {
     transform: scale(.9);
@@ -159,8 +157,7 @@ hr {
   }
 }
 
-
-/* Hero images cta buttons */
+/* Hero images CTA buttons */
 .btn-outline-light {
     color: #fff;
     border: 2px solid white;
@@ -180,7 +177,7 @@ hr {
     text-align: center;
 }
 
-/*------------------------------------Paragraph headings and text--------------------------------- */
+/*------------------------------------Paragraph Headings and Text--------------------------------- */
 
 h2 {
     font-family: 'Playfair Display', serif;
@@ -205,8 +202,7 @@ p {
     margin-right: 20px;
 }
 
-
-/* ---------------------------------------Video section ------------------------------------------*/
+/* ---------------------------------------Video Section ------------------------------------------*/
 .watch-now {
     background: #f8f8ff;
 }
@@ -224,13 +220,14 @@ p {
     box-shadow: 10px 5px 5px #a9a9a9; 
 }
 
-/* ----------------------------------------------About us section --------------------------------*/
+/* ----------------------------------------------About Us Section --------------------------------*/
 
-/* About us hero image title */
+/* About Us hero image title */
 .about-title {
     margin-bottom: 50px;
 }
 
+/* About Us CTA */
 .about-us .btn {
      margin-bottom: 50px;
 }
@@ -256,7 +253,7 @@ p {
     margin-right: auto !important;
 }
 
-/* ---------------------------------------About us hero image ------------------------------------*/
+/* About Us hero image */
 .hero-about { 
     background: url(../images/recoil-about-hero.jpg);
     background-position: center;
@@ -269,7 +266,7 @@ p {
     margin-right: auto;
 }
  
-
+/* About Us hero image responsive */
 @media(max-width: 768px) {
     .hero-about {
         background-size: contain;
@@ -297,9 +294,9 @@ p {
         margin-bottom: 0px;
     }
     h2 {
-        font-size: 35px;
+        font-size: 30px;
     }
-    h4 {
+    h3, h4, h5 {
         font-size: 25px !important;
     }
     .about-us .btn {
@@ -311,6 +308,9 @@ p {
         width: 300px;
         position: static;
         background-color: rgba(167, 45, 42, 0.7);
+    }
+    .book-us {
+        margin-top: 0px;
     }
 }
 
@@ -327,8 +327,7 @@ p {
     }
 }
  
-
-/* ----------------------------------Meet the band profiles section ------------------------------*/
+/* ----------------------------------Meet the Band Profiles Section ------------------------------*/
 
 .band-profiles {
     background: #f8f8ff;
@@ -356,6 +355,7 @@ p {
     margin-top: 25px;
 }
 
+/* Band profiles responsive heading and icons */
 @media(max-width:576px) {
     h2 i {
         display: block !important;
@@ -369,7 +369,7 @@ p {
     margin-right: 1px;
 }
 
-/* profile images */
+/* Meet the band profile images */
 .profile-1 {
     background: url(../images/chris2.jpg);
     background-position: center;
@@ -379,7 +379,6 @@ p {
     margin-left: auto;
     margin-right: auto;
     box-shadow: 10px 5px 5px #a9a9a9;
-
 }
 
 .profile-2 {
@@ -434,6 +433,7 @@ p {
     padding-left: 15px !important;
 }
  
+/* Meet the band profile images responsive */
 @media(max-width: 1024px) {
     .profile-1,
     .profile-2,
@@ -488,17 +488,16 @@ p {
     }
 }
 
-
-/* profiles text */
+/* Meet the band profiles text */
 .profile-text  {
     margin-left: auto;
     margin-right: auto;
     margin: 20px;
 }
 
-/* ------------------------------------Contact us section ----------------------------------------*/
+/* ------------------------------------Contact Us Section ----------------------------------------*/
  
-/* Contact us hero image */
+/* Contact Us hero image */
 .hero-contact {
     background: url(../images/recoil-couple.jpg);
     background-position: center;
@@ -508,6 +507,7 @@ p {
     margin-top: 55px;
 }
 
+/* Contact Us hero image responsive */
 @media(max-width: 768px) {
     .hero-contact {
         background-size: cover;
@@ -522,9 +522,17 @@ p {
     .hero-contact {
         background-size: contain;
         min-height: fit-content;
+        margin-top: 0px;
+    }
+    .hero-contact .hero-cta {
+        margin-top: 55px;
+        padding-top: 55px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
     }
 }
 
+/*-----------------------------------------Contact Form---------------------------------------*/
 
 /* Contact form headings */
 h3, h5 {
@@ -546,6 +554,7 @@ h3, h5 {
     box-shadow: 10px 5px 5px #a9a9a9;
 }
 
+/* Contact form responsive */
 @media(max-width:768px) {
     .bg-color-contact {
     background: #f8f9fa;
@@ -557,7 +566,6 @@ h3, h5 {
     box-shadow: 10px 5px 5px #a9a9a9;
 }
 }
-
 
 .center-form {
     max-width: 80%;
@@ -575,6 +583,7 @@ h3, h5 {
 }
 }
 
+/* Contact form CTA */
 .btn-secondary {
     margin: 25px;
     color: #fff;
@@ -589,9 +598,7 @@ h3, h5 {
     color: #414a4c;
 }
 
-
-
-/*--------------------------------------- Why us section----------------------------------------- */
+/*--------------------------------------- Why Us Section----------------------------------------- */
 
 .why-us { 
 background: #f8f8ff;
@@ -606,6 +613,7 @@ h4 {
     margin: 55px;
 }
 
+/* Why Us responsive */
 @media(max-width:576px) {
     h4 i {
         display: block !important;
@@ -614,9 +622,7 @@ h4 {
     }
 }
 
-
-
-/* -----------------------------------------------footer -----------------------------------------*/
+/* -----------------------------------------------Footer -----------------------------------------*/
 
 footer {
     background-color: #f8f9fa;
