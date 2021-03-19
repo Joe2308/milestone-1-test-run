@@ -308,6 +308,9 @@ When clicked the email icon opens my email tab and the emails are sending to the
 
 ![W3C HTML test](/assets/images/w3c-html.png)
 
+1. I went through all my Headings and semantic elements and corrected the issues.
+
+![W3C HTML test](/assets/images/w3c-html-pass.png)
 
 
 
