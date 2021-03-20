@@ -24,6 +24,10 @@ hr {
     border-radius: 50%;
 }
 
+.link {
+    color: #FF0000;
+}
+
 /*-------------------------------------------- Navbar--------------------------------------------- */
 
 /* Navbar logo with link to home */
@@ -699,3 +703,4 @@ footer h4 {
 footer .copy-right {
     margin: 15px;
 }
+
