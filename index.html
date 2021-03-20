@@ -389,18 +389,31 @@
                 <div class="col">
                     <h3>got an upcoming event?</h3>
                     <h5>we would love to hear from you!</h5>
-
                     <div class="center-form">
-                        <form>
-                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name"
-                                required>
-                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
-                                required>
+                        <form action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
+                            <div class="form-group">
+                                <label for="fullname" class="form-label">
+                                    <bold>Full Name</bold>
+                                </label>
+                                <input type="text" name="name" id="fullname" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="emailaddress" class="form-label">
+                                    <bold>Email</bold>
+                                </label>
+                                <input type="email" name="email" id="emailaddress" class="form-control" required>
+                            </div>
+                            <label for="messagesummary" class="form-label">
+                                <bold>Your Message</bold>
+                            </label>
                             <textarea rows="5" name="messagesummary" id="messagesummary" class="form-control"
-                                placeholder="Your Message" required></textarea>
+                                required></textarea>
                             <div class="form-row text-center">
                                 <div class="col">
-                                    <button type="submit" class="btn btn-secondary btn-lg">Submit</button>
+                                    <button type="submit" class="btn btn-secondary btn-lg">Send Now</button>
+                                </div>
+                                <div class="col">
+                                    <button type="reset" class="btn btn-secondary btn-lg">Clear Form</button>
                                 </div>
                             </div>
                         </form>

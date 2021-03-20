@@ -690,7 +690,7 @@ footer h4 {
 
 .footer .copyright {
     font-size: 1.3rem;
-    text-shadow: 1px 1px black;
+    text-shadow: .5px .5px #a9a9a9; 
     border-top: 1px solid #a9a9a9;
     border-bottom: 1px solid #a9a9a9;
     margin: 5px;
@@ -699,4 +699,3 @@ footer h4 {
 footer .copy-right {
     margin: 15px;
 }
-
