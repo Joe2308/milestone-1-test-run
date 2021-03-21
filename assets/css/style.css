@@ -49,8 +49,8 @@ hr {
 /* Home page hero images caraousel */
 .hero-home {
     background: linear-gradient(
-      rgba(0, 0, 0, 0.15),
-      rgba(0, 0, 0, 0.15)
+      rgba(0, 0, 0, 0.10),
+      rgba(0, 0, 0, 0.10)
     ),  url(../images/recoil-hero-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -92,8 +92,8 @@ hr {
 
 .hero-2 {
     background: linear-gradient(
-      rgba(0, 0, 0, 0.15),
-      rgba(0, 0, 0, 0.15)
+      rgba(0, 0, 0, 0.10),
+      rgba(0, 0, 0, 0.10)
     ), url(../images/recoil-hero-2.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -106,8 +106,8 @@ hr {
 @media(max-width: 768px) {
     .hero-2 {
         background: linear-gradient(
-      rgba(0, 0, 0, 0.15),
-      rgba(0, 0, 0, 0.15)
+      rgba(0, 0, 0, 0.10),
+      rgba(0, 0, 0, 0.10)
     ), url(../images/recoil-hero-2.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -131,8 +131,8 @@ hr {
 
 .hero-3 {
     background: linear-gradient(
-      rgba(0, 0, 0, 0.15),
-      rgba(0, 0, 0, 0.15)
+      rgba(0, 0, 0, 0.10),
+      rgba(0, 0, 0, 0.10)
     ), url(../images/recoil-hero-3.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -278,8 +278,8 @@ p {
 /* About Us hero image */
 .hero-about { 
     background: linear-gradient(
-      rgba(0, 0, 0, 0.15),
-      rgba(0, 0, 0, 0.15)
+      rgba(0, 0, 0, 0.10),
+      rgba(0, 0, 0, 0.10)
     ), url(../images/recoil-about-hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -526,8 +526,8 @@ p {
 /* Contact Us hero image */
 .hero-contact {
     background: linear-gradient(
-      rgba(0, 0, 0, 0.15),
-      rgba(0, 0, 0, 0.15)
+      rgba(0, 0, 0, 0.10),
+      rgba(0, 0, 0, 0.10)
     ), url(../images/recoil-couple.jpg);
     background-position: center;
     background-repeat: no-repeat;

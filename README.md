@@ -1,5 +1,5 @@
 # Milestone Project 1
-![Recoil Wedding Band Logo](/assets/images/recoil-logo.png)
+![Recoil Wedding Band Logo](assets/images/recoil-logo.png)
 
 This project is based on a corporate events / wedding band that has a growing fan base in Ireland and the Uk. It is actually my own band that I set up 10 years ago but is no longer together and does not have an existing website.
 I had alot of images and videos from different events of which I am the owner. I worked as a musician in the wedding and corporate events industry for almost 15 years and I was delighted to see this as an option for my first milestone project.
@@ -8,15 +8,18 @@ The main objectives for the site are to book more gigs and also gain more follow
 To achieve these goals I have included emotive and visual content to grab the users attention.
 The site's layout allows for easy navigation to guide the user towards the best information that will lead to a conversion in the form of a direct booking or a contact form enquiry.
 
-![Recoil Wedding Band Website](/assets/images/responsive.png)
+## [View Live Project](https://joe2308.github.io/milestone-1-test-run/)
+![Recoil Wedding Band Website](assets/images/responsive.png)
 
 # CONTENT QUICK LINKS
 ## [UX](#ux)
-## [FEATURES](#features)
+## [FEATURES](#available-features)
 ## [TECHNOLOGIES](#technologies-used)
-## [TESTING](#testing)
-## [MEDIA](#media)
-## [CREDITS](#credits)
+## [TESTING](#testing-steps)
+## [MEDIA](#media-credits)
+## [CREDITS](#code-credits)
+## [DEPLOYMENT](#deployment-and-testing)
+## [ACKNOWLEDGEMENTS](#my-acknowledgements)
 
 # UX
 
@@ -25,7 +28,7 @@ To keep in line with the style expected from weddings and corporate events I hav
 I have relied on exciting images of live music and a red theme for the call to action buttons. 
 I have used a fixed scrolling navigation menu to minimize user scrolling
 
-The following link shows the mockups designed using [Balsamiq wireframes](/assets/wireframes/mockups.pdf)
+The following link shows the mockups designed using [Balsamiq wireframes](assets/wireframes/mockups.pdf)
 
 ### User Stories:
 1. #### As a company HR assistant - I am looking to book exciting corporate entertainment for an upcoming social or team building event.
@@ -163,7 +166,7 @@ Headings that are on a background image are white to stand out more. And heading
 I used Mulish as it is very legible and also pairs well with Playfair Display.
 
 ### Images: 
-All images have been taken from a live performance by a professional photographer called Mark Duffy. Please see [media](#media) for more info on Mark.
+All images have been taken from a live performance by a professional photographer called Mark Duffy.
 The images are bright and vibrant and really bring a sense of what a live performance by Recoil will be like for a potential client.
 
 ### Order and sequence:
@@ -178,11 +181,11 @@ The images are bright and vibrant and really bring a sense of what a live perfor
 1. Use of subtle shadows to lift some elements off the page
 
 
-# Features
+# AVAILABLE FEATURES
 
 ### Home
 The home page gives an over all synopsis on the band and also contains a video. The main goal is to encourage users to book through the contact form so I have embedded a link in the paragraph text to peak user interest and encourage an enquiry.
-The home page consists of a bootstrap carousel of three hero images of the band performing live. As well as studying the bootstrap documentation I found a very helpfull YouTube video to help with this function. Please see [credits](#credits) for full details. I have placed a "Learn More" CTA button to click directly to the contact form over the image and also another "Watch Now" CTA that brings the user to the video section.
+The home page consists of a bootstrap carousel of three hero images of the band performing live. As well as studying the bootstrap documentation I found a very helpfull YouTube video to help with this function. I have placed a "Learn More" CTA button to click directly to the contact form over the image and also another "Watch Now" CTA that brings the user to the video section.
 The video on the home page encourages enagement and I have also embedded an external link below the video to the band's YouTube channel to encourage new suscribers.
 
 ### About us
@@ -199,7 +202,7 @@ A direct booking is the preferred outcome but I regard a general enquiry as a su
 ### Footer
 I have added social media links and contact details in the footer. All footer location icons are clickable and work in external tabs.
 I also added copyright details in a seperate bootstrap collumn. I played around with bootstrap's grid breakpoints to see what worked best on what devices.
-Aswell as referring to bootstrap documentation I also found a very usefull YouTube video to help me implement the style I was looking for, please see [credits](#credits) for more details.
+Aswell as referring to bootstrap documentation I also found a very usefull YouTube video to help me implement the style I was looking for, please see credits for more details.
 I then added my personal style preference in css.
 
 ### Features to add for future releases:
@@ -209,7 +212,7 @@ There are some features that I would love to implement on future releases:
 #### 1. Live chat - This would be a great support option to engage with new users and reduce bounce rate and increase session times
 #### 1. Virtual showcases - In today's world this would be an amazing option which would include an upcoming show notice and count down timer with the option for users to book their attendance to a virtual showcase. Users who have booked will be emailed a zoom link and a reminder notification when the show is about to start.
 
-# Technologies Used
+# TECHNOLOGIES USED
 
 1. [Balsamiq](https://balsamiq.com/wireframes/)
 * I found Balsamiq an extremely usefull platform to design mock ups and get a feel of how my website would look before coding.
@@ -245,13 +248,18 @@ There are some features that I would love to implement on future releases:
 * I used Adobe photoshop to create the band logo and favicon.
 
 1. [Youtube](https://www.youtube.com/)
-I used YouTube to embed the video using iframes.
+* I used YouTube to embed the video using iframes.
+
+1. [Optimizilla](https://imagecompressor.com/)
+* When testing load speeds in Lighthouse some of my images needed to be optimized. Optimizilla allowed me to compress images up to 80% dramatically improving the website's performance in Lighthouse.
+![Image compression](assets/images/optimizilla.png)
+
 
 1. [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
-Throughout the development process I used chrome developer tools for debugging and also to keep checking any changes I was making looked good on all devices.
+* Throughout the development process I used chrome developer tools for debugging and also to keep checking any changes I was making looked good on all devices.
 
 
-# Testing
+# TESTING STEPS
 
 ## User story testing:
 
@@ -270,7 +278,7 @@ there are many embedded links in the text that bring me to other resources such 
 These links open in external tabs so finding my way back to the website is easy. In the About Us section I could cleary see a notice about the band's next upcoming show and I made a note in my calender. In the footer I find Social media icons and on clicking I find the band has a strong presence on Facebook and Instagram. There is also extra content on here that I have never seen before so I like and suscribe and also tell my friends about it.
 The next time I visit the band's social media I notice their fanbase has grown rapidly.
 
-# Manual Testing:
+## Manual Testing:
 
 #### Responsive design:
 * I carried out exstensive user testing and consistently checked links and screen sizes on all available devices in Chrome dev tools.
@@ -299,23 +307,36 @@ I also added a **mailto:** link and a **telephone:** link to a working email add
 When clicked the email icon opens my email tab and the emails are sending to the assigned source. When the phone icon is clicked my desktop opens skype and my mobile makes a direct call.
 
 
-# HTML and CSS validation and fixes:
+## HTML and CSS validation and fixes:
 1. I used [W3C CSS validation service](https://jigsaw.w3.org/css-validator/validator) to test and check my CSS code. I luckily had no issues to find and fix. 
 
-![W3C CSS test](/assets/images/w3c-css.png)
+![W3C CSS test](assets/images/w3c-css.png)
 
 1. I used [W3C HTML validation service](https://validator.w3.org/) to test and check my HTML code. There were some errors with not enough headings as seen in image. 
 
-![W3C HTML test](/assets/images/w3c-html.png)
+![W3C HTML test](assets/images/w3c-html.png)
 
 1. I went through all my Headings and semantic elements and corrected the issues.
 
-![W3C HTML test](/assets/images/w3c-html-pass.png)
+![W3C HTML test](assets/images/w3c-html-pass.png)
+
+#### Lighthouse performance test:
+1. I used Lighthouse in Chrome devtools to test my website's performance. I was able to dramatically increased load times by optimizing images.
+However there were some other points I would like to improve on such as lazy loading of iframes and caching large files. I did do some research on these items however I just did not have enough time to implement and learn them all.
+I also increased my best practises score by adding rel="noreferrer" to all external links.
+
+![W3C HTML test](assets/images/lighthouse.png)
+
+#### Color contrast:
+1. I tested my webiste in [WAVE Web](https://wave.webaim.org/)
+It did show up some errors on color contrasting on my h1 titles overlayed on images and also my call to action buttons.
+I tried to change colors however I really wanted my site to have clean white headings over images.
+In order to help them stand out I used linear grading to darken images in css while also adding a minimal text shadow to headings to help them stand out more.
 
 
 
 
-# Media 
+# MEDIA CREDITS
 All images and videos are property of Recoil Wedding Band. 
 The video was filmed on location in Cork and edited by [Epic Productions](https://www.facebook.com/EpicProductionsIreland/)
 
@@ -325,7 +346,7 @@ Images were taken by [Mark Duffy Photography](https://www.markduffyphotography.c
 
 
 
-# Credits
+# CODE CREDITS
 
 ## [How to resize iframes using bootstrap](https://blog.theodo.com/2018/01/responsive-iframes-css-trick/)
 
@@ -338,4 +359,9 @@ Images were taken by [Mark Duffy Photography](https://www.markduffyphotography.c
 ## [Love Running hero image](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/)
 
 
-# Acknowledgements:
+# MY ACKNOWLEDGEMENTS
+1. I created this website for my old band Recoil who are no longer in operation. 
+1. I would like to acknowledge my mentor [Guido Cecilio](https://code-institute-room.slack.com/team/U4ALPK7UG) for his help with the design 
+and contact form and any issues I had along the way.
+
+<hr style="height:5px;border-width:0;color:gray;background-color: #005b96">
