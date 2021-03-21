@@ -43,7 +43,7 @@ hr {
 
 /* Home page hero images caraousel */
 .hero-home {
-    background: url(../images/recoil-hero-1.jpg);
+    background:  url(../images/recoil-hero-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -149,6 +149,7 @@ hr {
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards; 
+    text-shadow: 0 2px 0 black; 
 }
 
 /* Hero image H1 titles animation */
@@ -293,6 +294,7 @@ p {
     .hero-title {
         font-size: 30px;
         padding-top: 155px;
+        text-shadow: 0 1px 0 black;
     }
     #home .hero-title {
         margin-bottom: 0px;
