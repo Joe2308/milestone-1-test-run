@@ -43,7 +43,10 @@ hr {
 
 /* Home page hero images caraousel */
 .hero-home {
-    background:  url(../images/recoil-hero-1.jpg);
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.15)
+    ),  url(../images/recoil-hero-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -83,7 +86,10 @@ hr {
 }
 
 .hero-2 {
-    background: url(../images/recoil-hero-2.jpg);
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.15)
+    ), url(../images/recoil-hero-2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -94,7 +100,10 @@ hr {
 /* Image 2 carousel responsive */
 @media(max-width: 768px) {
     .hero-2 {
-        background: url(../images/recoil-hero-2.jpg);
+        background: linear-gradient(
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.15)
+    ), url(../images/recoil-hero-2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -116,7 +125,10 @@ hr {
 }
 
 .hero-3 {
-    background: url(../images/recoil-hero-3.jpg);
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.15)
+    ), url(../images/recoil-hero-3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -260,7 +272,10 @@ p {
 
 /* About Us hero image */
 .hero-about { 
-    background: url(../images/recoil-about-hero.jpg);
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.15)
+    ), url(../images/recoil-about-hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -505,7 +520,10 @@ p {
  
 /* Contact Us hero image */
 .hero-contact {
-    background: url(../images/recoil-couple.jpg);
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.15)
+    ), url(../images/recoil-couple.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
