@@ -333,6 +333,9 @@ It did show up some errors on color contrasting on my h1 titles overlayed on ima
 I tried to change colors however I really wanted my site to have clean white headings over images.
 In order to help them stand out I used linear grading to darken images in css while also adding a minimal text shadow to headings to help them stand out more.
 
+# DEPLOYMENT AND TESTING 
+
+
 
 
 
@@ -363,5 +366,6 @@ Images were taken by [Mark Duffy Photography](https://www.markduffyphotography.c
 1. I created this website for my old band Recoil who are no longer in operation. 
 1. I would like to acknowledge my mentor [Guido Cecilio](https://code-institute-room.slack.com/team/U4ALPK7UG) for his help with the design 
 and contact form and any issues I had along the way.
+1. I would like to acknowledge [Natasha Clerkin](https://github.com/natashaclerkin/singularartistsMS1) for inspiration from her fantastic README.md file 
 
 <hr style="height:5px;border-width:0;color:gray;background-color: #005b96">
