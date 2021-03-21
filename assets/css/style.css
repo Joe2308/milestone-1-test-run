@@ -26,6 +26,11 @@ hr {
 
 .link {
     color: #FF0000;
+    text-transform: capitalize;
+}
+
+.link:hover {
+    color: navy;
 }
 
 /*-------------------------------------------- Navbar--------------------------------------------- */
@@ -569,7 +574,10 @@ h3, h5 {
 }
 
 .bg-color-contact {
-    background: url(../images/spotlight.jpg);
+    background: linear-gradient(
+      rgba(0, 0, 0, .09),
+      rgba(0, 0, 0, .09)
+    ), url(../images/spotlight.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
