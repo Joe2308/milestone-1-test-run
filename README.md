@@ -330,8 +330,10 @@ I also increased my best practises score by adding rel="noreferrer" to all exter
 #### Color contrast:
 1. I tested my webiste in [WAVE Web](https://wave.webaim.org/)
 It did show up some errors on color contrasting on my h1 titles overlayed on images and also my call to action buttons.
-I tried to change colors however I really wanted my site to have clean white headings over images.
+I changed my CTA background colors to achieve a pass, however I really wanted my site to have clean white headings over images.
 In order to help them stand out I used linear grading to darken images in css while also adding a minimal text shadow to headings to help them stand out more.
+
+![W3C HTML test](assets/images/a11y.png)
 
 # DEPLOYMENT AND TESTING 
 
