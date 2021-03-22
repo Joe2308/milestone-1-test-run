@@ -26,7 +26,7 @@ The site's layout allows for easy navigation to guide the user towards the best 
 ## UX Mock Ups:
 To keep in line with the style expected from weddings and corporate events I have kept the website design simple and clean with the main background being white with black text that is well spaced. 
 I have relied on exciting images of live music and a red theme for the call to action buttons. 
-I have used a fixed scrolling navigation menu to minimize user scrolling
+I have used a fixed scrolling navigation menu to minimize user scrolling.
 
 The following link shows the mockups designed using [Balsamiq wireframes](assets/wireframes/mockups.pdf)
 
@@ -45,7 +45,7 @@ A website that offers insight to fans and potential clients about an events band
 1. Ultimately get more bookings and revenue.
 
 ### Website target audience:
-1. Corporate functions 
+1. Corporate functions. 
 1. Wedding couples. 
 
 ### User value:
@@ -84,28 +84,28 @@ Feel good content with CTA flow to lead to completing the booking form or at the
 ## Scope:
 
 ### Features for this release:
-1. video
-1. Contact form
-1. Upcoming show sticker
-1. Emotive images 
-1. Rich informative content on the band
-1. Social media links
+1. video.
+1. Contact form.
+1. Upcoming show sticker.
+1. Emotive images. 
+1. Rich informative content on the band.
+1. Social media links.
 
 ### User requirements:
-1. The ability to see a live video
-1. The ability to attend live showcases
-1. The ability to contact the band
-1. The ability to read rich content
-1. The ability to follow the band on social media 
-1. The ability to view images
+1. The ability to see a live video.
+1. The ability to attend live showcases.
+1. The ability to contact the band.
+1. The ability to read rich content.
+1. The ability to follow the band on social media. 
+1. The ability to view images.
 
 ### How we will achieve these requirements:
-1. By adding a video to home page of a live performance
-1. By showing the next event details on a landing page
-1. By implementing a contact form
-1. Good headings and paragraphs that are informative and enjoyable to read
-1. Appropriate social links in the footer and also by use of natural internal links in the content
-1. Each page will have a hero image and also each section on each page will begin with an image
+1. By adding a video to the home page of a live performance.
+1. By showing the next event details on a landing page.
+1. By implementing a contact form.
+1. Good headings and paragraphs that are informative and enjoyable to read.
+1. Appropriate social links in the footer and also by use of natural internal links in the content.
+1. Each page will have a hero image and also each section on each page will begin with an image.
 
 
 ## Structure:
@@ -124,15 +124,15 @@ The linking stucture keeps my user experience strategy in mind of generating con
 ## Skeleton:
 
 ### Presentation
-1. Simple layout
-1. Hero image for each section
-1. Fixed navigation
-1. Consistent layout and theme
+1. Simple layout.
+1. Hero image for each section.
+1. Fixed navigation.
+1. Consistent layout and theme.
 
 ### User conventional tools:
-1. Clear headings 
-1. Clickable elements clearly labelled 
-1. Easy to read nav bar 
+1. Clear headings. 
+1. Clickable elements clearly labelled. 
+1. Easy to read nav bar. 
 1. Social media links in the form of clickable icons in the footer. 
 
 ### Progressive disclosure:
@@ -141,11 +141,11 @@ I have arranged the supporting content in order of priority in additional sectio
 Each section links to the most important items to engage users and encourage a conversion.
 
 ### Elements that have priority:
-1. Navigation menu with fixed scrolling
-1. Clickable logo with return to home link
-1. Video and hero images 
-1. Social media links
-1. Contact form
+1. Navigation menu with fixed scrolling.
+1. Clickable logo with return to home link.
+1. Video and hero images. 
+1. Social media links.
+1. Contact form.
 
 ## Surface
 
@@ -170,15 +170,15 @@ All images have been taken from a live performance by a professional photographe
 The images are bright and vibrant and really bring a sense of what a live performance by Recoil will be like for a potential client.
 
 ### Order and sequence:
-1. Navigation order - Home/ About Us/ Contact US
-1. Home section order - Hero image carousel/ Heading/ Intro paragraph/ Video
-1. About Us section order - Hero image/  Heading and intro paragraph/ Meet the band profiles
+1. Navigation order - Home/ About Us/ Contact US.
+1. Home section order - Hero image carousel/ Heading/ Intro paragraph/ Video.
+1. About Us section order - Hero image/  Heading and intro paragraph/ Meet the band profiles.
 1. Contact Us section order - Hero image/ Heading and paragraph/ Contact form/ Why us?
-1. Footer section order - Band name/ social links/ contact details/ copyright
+1. Footer section order - Band name/ social links/ contact details/ copyright.
 
 ### Other themes:
-1. Use of musical instrument icons from font Awesome for the meet the band section
-1. Use of subtle shadows to lift some elements off the page
+1. Use of musical instrument icons from font Awesome for the meet the band section.
+1. Use of subtle shadows to lift some elements off the page.
 
 
 # AVAILABLE FEATURES
@@ -208,8 +208,8 @@ I then added my personal style preference in css.
 ### Features to add for future releases:
 There are some features that I would love to implement on future releases:
 
-1. #### Availability calender - Allow the user to get instant feedback on availability by inputting their event details
-1. #### Live chat - This would be a great support option to engage with new users and reduce bounce rate and increase session times
+1. #### Availability calender - Allow the user to get instant feedback on availability by inputting their event details.
+1. #### Live chat - This would be a great support option to engage with new users and reduce bounce rate and increase session times.
 1. #### Virtual showcases - In today's world this would be an amazing option which would include an upcoming show notice and count down timer with the option for users to book their attendance to a virtual showcase. Users who have booked will be emailed a zoom link and a reminder notification when the show is about to start.
 
 # TECHNOLOGIES USED
@@ -403,6 +403,6 @@ Images were taken by [Mark Duffy Photography](https://www.markduffyphotography.c
 1. I created this website for my old band Recoil who are no longer in operation. 
 1. I would like to acknowledge my mentor [Guido Cecilio](https://code-institute-room.slack.com/team/U4ALPK7UG) for his help with the design 
 and contact form and any issues I had along the way.
-1. I would like to acknowledge [Natasha Clerkin](https://github.com/natashaclerkin/singularartistsMS1) for inspiration from her fantastic README.md file 
+1. I would like to acknowledge [Natasha Clerkin](https://github.com/natashaclerkin/singularartistsMS1) for inspiration from her fantastic README.md file.
 
 <hr style="height:5px;border-width:0;color:gray;background-color: #005b96">
