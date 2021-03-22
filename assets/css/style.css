@@ -77,6 +77,7 @@ hr {
     }
 }
 
+/* Two call to action buttons on Home hero image on screens 280px looked too cluttered so I removed one in this media query .home-learn */
 @media(max-width: 280px) {
     .hero-home {
     background-position: center;

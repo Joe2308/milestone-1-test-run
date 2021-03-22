@@ -186,6 +186,7 @@ The images are bright and vibrant and really bring a sense of what a live perfor
 ### Home
 The home page gives an over all synopsis on the band and also contains a video. The main goal is to encourage users to book through the contact form so I have embedded a link in the paragraph text to peak user interest and encourage an enquiry.
 The home page consists of a bootstrap carousel of three hero images of the band performing live. As well as studying the bootstrap documentation I found a very helpfull YouTube video to help with this function. I have placed a "Learn More" CTA button to click directly to the contact form over the image and also another "Watch Now" CTA that brings the user to the video section.
+I should mention that on screens of 280px the combination of two buttons looked too cluttered so I set the display of one to none and I added a text link in the first paragraph instead.
 The video on the home page encourages enagement and I have also embedded an external link below the video to the band's YouTube channel to encourage new suscribers.
 
 ### About us
@@ -221,7 +222,7 @@ There are some features that I would love to implement on future releases:
 * HTML is the main mark up language used to design my webiste.
 
 3. [CSS 3](https://en.wikipedia.org/wiki/CSS)
-* All HTML element were syled to my own personal taste using CSS language.
+* All HTML elements were styled to my own personal taste using CSS language.
 
 4. [Bootstrap 4](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 * In order to make my website responsive I used the bootstrap 4 grid system. I also used bootstrap to help with my image carousel.
@@ -230,7 +231,7 @@ There are some features that I would love to implement on future releases:
 * All icons have been sourced and added from the free version of font awesome.
 
 6. [Google Fonts](https://fonts.google.com/)
-* I used google fonts to source both Playfair Display and Mulish to syle all of my headings and text.
+* I used google fonts to source both Playfair Display and Mulish to style all of my headings and text.
 
 7. [Gitpod](https://www.gitpod.io/)
 * I used git pod as my IDE workspace to write and run all code. I used Git as my version control to commit and push all code to my GitHub repository.
@@ -317,7 +318,7 @@ When clicked the email icon opens my email tab and the emails are sending to the
 
 ![W3C CSS test](assets/images/w3c-css.png)
 
-2. I used [W3C HTML validation service](https://validator.w3.org/) to test and check my HTML code. There were some errors with not enough headings as seen in image. 
+2. I used [W3C HTML validation service](https://jigsaw.w3.org/css-validator/) to test and check my HTML code. There were some errors with not enough headings as seen in image. 
 
 ![W3C HTML test](assets/images/w3c-html.png)
 
@@ -326,7 +327,7 @@ When clicked the email icon opens my email tab and the emails are sending to the
 ![W3C HTML test](assets/images/w3c-html-pass.png)
 
 #### Lighthouse performance test:
-4. I used Lighthouse in Chrome devtools to test my website's performance. I was able to dramatically increased load times by optimizing images.
+4. I used Lighthouse in Chrome devtools to test my website's performance. I was able to dramatically increase load times by optimizing images.
 However there were some other points I would like to improve on such as lazy loading of iframes and caching large files. I did do some research on these items however I just did not have enough time to implement and learn them all.
 I also increased my best practises score by adding rel="noreferrer" to all external links.
 
