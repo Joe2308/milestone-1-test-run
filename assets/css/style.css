@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /*------------------------------------General Styles: body /containers /hr/---------------------------*/
 
 html, body {
@@ -51,6 +58,16 @@ hr {
 /* Home page hero images caraousel */
 /* I used linear-gradient on hero images to darken slightly and allow my h1 text to pop out more */
 .hero-home {
+    background: -webkit-gradient(
+      linear,
+      left top, left bottom,
+      from(rgba(0, 0, 0, 0.10)),
+      to(rgba(0, 0, 0, 0.10))
+    ),  url(../images/recoil-hero-1.jpg);
+    background: -o-linear-gradient(
+      rgba(0, 0, 0, 0.10),
+      rgba(0, 0, 0, 0.10)
+    ),  url(../images/recoil-hero-1.jpg);
     background: linear-gradient(
       rgba(0, 0, 0, 0.10),
       rgba(0, 0, 0, 0.10)
@@ -68,6 +85,8 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
     min-height: fit-content;
     margin-top: 55px;
     }
@@ -83,6 +102,8 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
     min-height: fit-content;
     margin-top: 55px;
     }
@@ -95,6 +116,16 @@ hr {
 }
 
 .hero-2 {
+    background: -webkit-gradient(
+      linear,
+      left top, left bottom,
+      from(rgba(0, 0, 0, 0.10)),
+      to(rgba(0, 0, 0, 0.10))
+    ), url(../images/recoil-hero-2.jpg);
+    background: -o-linear-gradient(
+      rgba(0, 0, 0, 0.10),
+      rgba(0, 0, 0, 0.10)
+    ), url(../images/recoil-hero-2.jpg);
     background: linear-gradient(
       rgba(0, 0, 0, 0.10),
       rgba(0, 0, 0, 0.10)
@@ -109,6 +140,16 @@ hr {
 /* Image 2 carousel responsive */
 @media(max-width: 768px) {
     .hero-2 {
+        background: -webkit-gradient(
+      linear,
+      left top, left bottom,
+      from(rgba(0, 0, 0, 0.10)),
+      to(rgba(0, 0, 0, 0.10))
+    ), url(../images/recoil-hero-2.jpg);
+        background: -o-linear-gradient(
+      rgba(0, 0, 0, 0.10),
+      rgba(0, 0, 0, 0.10)
+    ), url(../images/recoil-hero-2.jpg);
         background: linear-gradient(
       rgba(0, 0, 0, 0.10),
       rgba(0, 0, 0, 0.10)
@@ -116,6 +157,8 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
     min-height: fit-content;
     margin-top: 70px;
     }
@@ -134,6 +177,16 @@ hr {
 }
 
 .hero-3 {
+    background: -webkit-gradient(
+      linear,
+      left top, left bottom,
+      from(rgba(0, 0, 0, 0.10)),
+      to(rgba(0, 0, 0, 0.10))
+    ), url(../images/recoil-hero-3.jpg);
+    background: -o-linear-gradient(
+      rgba(0, 0, 0, 0.10),
+      rgba(0, 0, 0, 0.10)
+    ), url(../images/recoil-hero-3.jpg);
     background: linear-gradient(
       rgba(0, 0, 0, 0.10),
       rgba(0, 0, 0, 0.10)
@@ -151,6 +204,8 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
     min-height: fit-content;
     margin-top: 55px;
     }
@@ -168,19 +223,34 @@ hr {
     font-size: 55px;
     font-weight: bold;
     text-transform: capitalize;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards; 
+    -webkit-animation-name: hero-zoom;
+            animation-name: hero-zoom;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards; 
     text-shadow: 0 2px 0 black; 
 }
 
 /* Hero image H1 titles animation */
-@keyframes hero-zoom {
+@-webkit-keyframes hero-zoom {
   from {
-    transform: scale(.9);
+    -webkit-transform: scale(.9);
+            transform: scale(.9);
   }
   to {
-    transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes hero-zoom {
+  from {
+    -webkit-transform: scale(.9);
+            transform: scale(.9);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
@@ -244,7 +314,8 @@ p {
     margin-left: auto;
     margin-right: auto;
     border-radius: 12px;
-    box-shadow: 10px 5px 5px #a9a9a9; 
+    -webkit-box-shadow: 10px 5px 5px #a9a9a9;
+            box-shadow: 10px 5px 5px #a9a9a9; 
 }
 
 /* ----------------------------------------------About Us Section --------------------------------*/
@@ -282,6 +353,16 @@ p {
 
 /* About Us hero image */
 .hero-about { 
+    background: -webkit-gradient(
+      linear,
+      left top, left bottom,
+      from(rgba(0, 0, 0, 0.10)),
+      to(rgba(0, 0, 0, 0.10))
+    ), url(../images/recoil-about-hero.jpg); 
+    background: -o-linear-gradient(
+      rgba(0, 0, 0, 0.10),
+      rgba(0, 0, 0, 0.10)
+    ), url(../images/recoil-about-hero.jpg); 
     background: linear-gradient(
       rgba(0, 0, 0, 0.10),
       rgba(0, 0, 0, 0.10)
@@ -387,7 +468,8 @@ p {
     border: 1px solid black;
     margin: 20px 20px 55px 20px;
     background: #f8f8ff;
-    box-shadow: 10px 5px 5px #a9a9a9;
+    -webkit-box-shadow: 10px 5px 5px #a9a9a9;
+            box-shadow: 10px 5px 5px #a9a9a9;
 }
 
 .band h2 {
@@ -418,7 +500,8 @@ p {
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 10px 5px 5px #a9a9a9;
+    -webkit-box-shadow: 10px 5px 5px #a9a9a9;
+            box-shadow: 10px 5px 5px #a9a9a9;
 }
 
 .profile-2 {
@@ -429,7 +512,8 @@ p {
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 10px 5px 5px #a9a9a9;
+    -webkit-box-shadow: 10px 5px 5px #a9a9a9;
+            box-shadow: 10px 5px 5px #a9a9a9;
     padding-right: 15px !important; 
     padding-left: 15px !important;
 }
@@ -442,7 +526,8 @@ p {
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 10px 5px 5px #a9a9a9;
+    -webkit-box-shadow: 10px 5px 5px #a9a9a9;
+            box-shadow: 10px 5px 5px #a9a9a9;
     padding-right: 15px !important;
     padding-left: 15px !important;
 }
@@ -455,7 +540,8 @@ p {
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 10px 5px 5px #a9a9a9;
+    -webkit-box-shadow: 10px 5px 5px #a9a9a9;
+            box-shadow: 10px 5px 5px #a9a9a9;
     padding-right: 15px !important;
     padding-left: 15px !important;
 }
@@ -468,7 +554,8 @@ p {
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 10px 5px 5px #a9a9a9;
+    -webkit-box-shadow: 10px 5px 5px #a9a9a9;
+            box-shadow: 10px 5px 5px #a9a9a9;
     padding-right: 15px !important;
     padding-left: 15px !important;
 }
@@ -539,6 +626,16 @@ p {
  
 /* Contact Us hero image */
 .hero-contact {
+    background: -webkit-gradient(
+      linear,
+      left top, left bottom,
+      from(rgba(0, 0, 0, 0.10)),
+      to(rgba(0, 0, 0, 0.10))
+    ), url(../images/recoil-couple.jpg);
+    background: -o-linear-gradient(
+      rgba(0, 0, 0, 0.10),
+      rgba(0, 0, 0, 0.10)
+    ), url(../images/recoil-couple.jpg);
     background: linear-gradient(
       rgba(0, 0, 0, 0.10),
       rgba(0, 0, 0, 0.10)
@@ -554,6 +651,8 @@ p {
 @media(max-width: 768px) {
     .hero-contact {
         background-size: cover;
+        min-height: -webkit-fit-content;
+        min-height: -moz-fit-content;
         min-height: fit-content;
     }
     .hero-contact .hero-cta {
@@ -564,6 +663,8 @@ p {
 @media(max-width: 576px) {
     .hero-contact {
         background-size: cover;
+        min-height: -webkit-fit-content;
+        min-height: -moz-fit-content;
         min-height: fit-content;
         margin-top: 0px;
     }
@@ -588,6 +689,16 @@ h3, h5 {
 }
 
 .bg-color-contact {
+    background: -webkit-gradient(
+      linear,
+      left top, left bottom,
+      from(rgba(0, 0, 0, .09)),
+      to(rgba(0, 0, 0, .09))
+    ), url(../images/spotlight.jpg);
+    background: -o-linear-gradient(
+      rgba(0, 0, 0, .09),
+      rgba(0, 0, 0, .09)
+    ), url(../images/spotlight.jpg);
     background: linear-gradient(
       rgba(0, 0, 0, .09),
       rgba(0, 0, 0, .09)
@@ -597,7 +708,8 @@ h3, h5 {
     background-size: cover;
     min-height: 600px;
     margin: 20px;
-    box-shadow: 10px 5px 5px #a9a9a9;
+    -webkit-box-shadow: 10px 5px 5px #a9a9a9;
+            box-shadow: 10px 5px 5px #a9a9a9;
 }
 
 /* Contact form responsive */
@@ -609,7 +721,8 @@ h3, h5 {
     background-size: cover;
     min-height: 600px;
     margin: 20px;
-    box-shadow: 10px 5px 5px #a9a9a9;
+    -webkit-box-shadow: 10px 5px 5px #a9a9a9;
+            box-shadow: 10px 5px 5px #a9a9a9;
 }
 }
 
@@ -709,7 +822,8 @@ footer h4 {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-    box-shadow: 10px 5px 5px #a9a9a9;
+    -webkit-box-shadow: 10px 5px 5px #a9a9a9;
+            box-shadow: 10px 5px 5px #a9a9a9;
 }
 
 .social-links li a i:hover {
@@ -718,6 +832,8 @@ footer h4 {
 
 .footer .links li a {
     color: black;
+    -webkit-transition: color 0.2s;
+    -o-transition: color 0.2s;
     transition: color 0.2s;
 }
 
@@ -731,6 +847,8 @@ footer h4 {
 
 .location li a i {
     color: black;
+    -webkit-transition: color 0.2s;
+    -o-transition: color 0.2s;
     transition: color 0.2s;
 }
 
@@ -749,4 +867,3 @@ footer h4 {
 footer .copy-right {
     margin: 15px;
 }
-
