@@ -265,6 +265,9 @@ There are some features that I would love to implement on future releases:
 16. [a11y](https://color.a11y.com/)
 * I used a11y to get my color contrast between background and text as accessible as possible without comprimising my vision for the website design.
 
+17. [CSS Autoprefixer](https://autoprefixer.github.io/)
+* I used Autoprefixer to ensure all of my css styles would work on all browsers.
+
 # TESTING STEPS
 
 ## User story testing:
