@@ -25,12 +25,12 @@ hr {
 }
 
 .link {
-    color: #FF0000;
+    color: #B22222;
     text-transform: capitalize;
 }
 
 .link:hover {
-    color: navy;
+    color: #DC143C;
 }
 
 /*-------------------------------------------- Navbar--------------------------------------------- */
@@ -183,7 +183,7 @@ hr {
 .btn-outline-light {
     color: #fff;
     border: 2px solid white;
-    background-color: #FF0000;
+    background-color: #B22222;
     margin-left: 0px;
     margin-right: 5px;
     margin-top: 55px;
@@ -628,7 +628,7 @@ h3, h5 {
     margin: 25px;
     color: #fff;
     border: 2px solid white;
-    background-color: #FF0000;
+    background-color: #B22222;
     border-radius: 25px;
 }
 
@@ -716,7 +716,7 @@ footer h4 {
 }
 
 .footer .links li a:hover {
-    color:#FF0000;
+    color: #DC143C;
 }
 
 .footer .location i {
@@ -729,7 +729,7 @@ footer h4 {
 }
 
 .location li a i:hover {
-    color:#FF0000;
+    color: #DC143C;
 }
 
 .footer .copyright {
