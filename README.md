@@ -208,56 +208,61 @@ I then added my personal style preference in css.
 ### Features to add for future releases:
 There are some features that I would love to implement on future releases:
 
-#### 1. Availability calender - Allow the user to get instant feedback on availability by inputting their event details
-#### 1. Live chat - This would be a great support option to engage with new users and reduce bounce rate and increase session times
-#### 1. Virtual showcases - In today's world this would be an amazing option which would include an upcoming show notice and count down timer with the option for users to book their attendance to a virtual showcase. Users who have booked will be emailed a zoom link and a reminder notification when the show is about to start.
+1. #### Availability calender - Allow the user to get instant feedback on availability by inputting their event details
+1. #### Live chat - This would be a great support option to engage with new users and reduce bounce rate and increase session times
+1. #### Virtual showcases - In today's world this would be an amazing option which would include an upcoming show notice and count down timer with the option for users to book their attendance to a virtual showcase. Users who have booked will be emailed a zoom link and a reminder notification when the show is about to start.
 
 # TECHNOLOGIES USED
 
 1. [Balsamiq](https://balsamiq.com/wireframes/)
 * I found Balsamiq an extremely usefull platform to design mock ups and get a feel of how my website would look before coding.
 
-1. [HTML 5](https://en.wikipedia.org/wiki/HTML)
+2. [HTML 5](https://en.wikipedia.org/wiki/HTML)
 * HTML is the main mark up language used to design my webiste.
 
-2. [CSS 3](https://en.wikipedia.org/wiki/CSS)
+3. [CSS 3](https://en.wikipedia.org/wiki/CSS)
 * All HTML element were syled to my own personal taste using CSS language.
 
-3. [Bootstrap 4](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+4. [Bootstrap 4](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 * In order to make my website responsive I used the bootstrap 4 grid system. I also used bootstrap to help with my image carousel.
 
-4. [Font Awesome](https://fontawesome.com/)
+5. [Font Awesome](https://fontawesome.com/)
 * All icons have been sourced and added from the free version of font awesome.
 
-5. [Google Fonts](https://fonts.google.com/)
+6. [Google Fonts](https://fonts.google.com/)
 * I used google fonts to source both Playfair Display and Mulish to syle all of my headings and text.
 
-6. [Gitpod](https://www.gitpod.io/)
+7. [Gitpod](https://www.gitpod.io/)
 * I used git pod as my IDE workspace to write and run all code. I used Git as my version control to commit and push all code to my GitHub repository.
 
-1. [Github](https://github.com/)
+8. [Github](https://github.com/)
 * I used GitHub to store my Git commits and back up all code.
 
-1. [W3C HTML validator](https://validator.w3.org/)
+9. [W3C HTML validator](https://validator.w3.org/)
 * I used the W3C validation service to ensure all HTML code passed validation.
 
-1. [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
+10. [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
 * I used the W3C validation service to ensure all CSS code passed validation.
 
-1. [Photoshop](https://www.adobe.com/ie/products/photoshop.html)
+11. [Photoshop](https://www.adobe.com/ie/products/photoshop.html)
 * I used Adobe photoshop to create the band logo and favicon.
 
-1. [Youtube](https://www.youtube.com/)
+12. [Youtube](https://www.youtube.com/)
 * I used YouTube to embed the video using iframes.
 
-1. [Optimizilla](https://imagecompressor.com/)
+13. [Optimizilla](https://imagecompressor.com/)
 * When testing load speeds in Lighthouse some of my images needed to be optimized. Optimizilla allowed me to compress images up to 80% dramatically improving the website's performance in Lighthouse.
 ![Image compression](assets/images/optimizilla.png)
 
 
-1. [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+14. [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
 * Throughout the development process I used chrome developer tools for debugging and also to keep checking any changes I was making looked good on all devices.
 
+15. [WAVE web accessibility tool](https://wave.webaim.org/)
+* I used WAVE to make check any errors that my site may have which would effect users with hearing or visual disabilities.
+
+16. [a11y](https://color.a11y.com/)
+* I used a11y to get my color contrast between background and text as accessible as possible without comprimising my vision for the website design.
 
 # TESTING STEPS
 
@@ -312,23 +317,23 @@ When clicked the email icon opens my email tab and the emails are sending to the
 
 ![W3C CSS test](assets/images/w3c-css.png)
 
-1. I used [W3C HTML validation service](https://validator.w3.org/) to test and check my HTML code. There were some errors with not enough headings as seen in image. 
+2. I used [W3C HTML validation service](https://validator.w3.org/) to test and check my HTML code. There were some errors with not enough headings as seen in image. 
 
 ![W3C HTML test](assets/images/w3c-html.png)
 
-1. I went through all my Headings and semantic elements and corrected the issues.
+3. I went through all my Headings and semantic elements and corrected the issues.
 
 ![W3C HTML test](assets/images/w3c-html-pass.png)
 
 #### Lighthouse performance test:
-1. I used Lighthouse in Chrome devtools to test my website's performance. I was able to dramatically increased load times by optimizing images.
+4. I used Lighthouse in Chrome devtools to test my website's performance. I was able to dramatically increased load times by optimizing images.
 However there were some other points I would like to improve on such as lazy loading of iframes and caching large files. I did do some research on these items however I just did not have enough time to implement and learn them all.
 I also increased my best practises score by adding rel="noreferrer" to all external links.
 
 ![W3C HTML test](assets/images/lighthouse.png)
 
 #### Color contrast:
-1. I tested my webiste in [WAVE Web](https://wave.webaim.org/)
+5. I tested my webiste in [WAVE Web](https://wave.webaim.org/)
 It did show up some errors on color contrasting on my h1 titles overlayed on images and also my call to action buttons.
 I changed my CTA background colors to achieve a pass, however I really wanted my site to have clean white headings over images.
 In order to help them stand out I used linear grading to darken images in css while also adding a minimal text shadow to headings to help them stand out more.
@@ -336,7 +341,35 @@ In order to help them stand out I used linear grading to darken images in css wh
 ![W3C HTML test](assets/images/a11y.png)
 
 # DEPLOYMENT AND TESTING 
+This site is hosted using GitHub pages, and is deployed from the master branch in repository settings.
 
+To create a local copy of this repository it can be cloned to GitHub desktop in the following steps:
+1. On GitHub, navigate to the main page of the repository [https://github.com/Joe2308/milestone-1-test-run].
+2. Above the list of files, click  Code. ![W3C HTML test](assets/images/clone1.png)
+3. Click  Open with GitHub Desktop to clone and open the repository with GitHub Desktop. ![W3C HTML test](assets/images/clone2.png)
+4. Follow the prompts in GitHub Desktop to complete the clone.
+
+#### Please follow this link for more information on cloning GitHub repositories [https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop]
+
+## Deployment steps:
+
+1. From my GitHub repository I selected the Settings tab.
+
+![W3C HTML test](assets/images/deploy1.png)
+
+2. From here I scrolled down the page to find the GitHub Pages section and selected the Master branch and pressed save.
+
+![W3C HTML test](assets/images/deploy2.png)
+
+3. From here I was given the message that my site had been deployed at the following url [https://joe2308.github.io/milestone-1-test-run/].
+
+![W3C HTML test](assets/images/deploy3.png)
+
+4. I followed the link and visually inspected the published site to ensure it looked the same as in my code editor preview.
+
+5. I then use Chrome Devtools to inspect the site and manually test all links and responsiveness on all available devices.
+
+![W3C HTML test](assets/images/deploy4.png)
 
 
 
