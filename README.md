@@ -317,11 +317,11 @@ When clicked the email icon opens my email tab and the emails are sending to the
 
 
 ## HTML and CSS validation and fixes:
-1. I used [W3C CSS validation service](https://jigsaw.w3.org/css-validator/validator) to test and check my CSS code. I luckily had no issues to find and fix. 
+1. I used [W3C CSS validation service](https://jigsaw.w3.org/css-validator/) to test and check my CSS code. I luckily had no issues to find and fix. 
 
 ![W3C CSS test](assets/images/w3c-css.png)
 
-2. I used [W3C HTML validation service](https://jigsaw.w3.org/css-validator/) to test and check my HTML code. There were some errors with not enough headings as seen in image. 
+2. I used [W3C HTML validation service](https://validator.w3.org/) to test and check my HTML code. There were some errors with not enough headings as seen in image. 
 
 ![W3C HTML test](assets/images/w3c-html.png)
 
